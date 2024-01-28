@@ -1,4 +1,6 @@
-@import url(.css);
+@import url(header.css);
+@import url(nav.css);
+@import url(title.css);
 
 @font-face {
     font-family: Ubuntu;
@@ -28,10 +30,11 @@ box-sizing: inherit;
 }
 
 body {
+    background-color: #F5F5F5;
     font-family: Ubuntu, sans-serif;
     font-size: 14px;
     font-weight: 300;
-    color: #282626;
+    color: #000000;
     position: relative;
     overflow-x: hidden;
     min-width: 320px;
@@ -91,7 +94,7 @@ iframe {
     margin: 0 auto;
 }
 
-section {
+section, aside {
     padding: 50px 0;
 }
 

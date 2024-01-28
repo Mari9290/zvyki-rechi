@@ -1,0 +1,22 @@
+.nav {
+    width: 80%;
+}
+
+.nav__list {
+    display: flex;
+    gap: 25px;
+}
+
+.nav__link {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 50px 13px;
+}
+
+.nav__link:hover {
+    background: radial-gradient(circle, rgba(254,193,88,1) 0%, rgba(245,245,245,0) 55%);
+}
+
+.nav__item:last-child {
+    margin-left: auto;
+} 

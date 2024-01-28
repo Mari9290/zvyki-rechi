@@ -1,0 +1,28 @@
+.header {
+    padding: 50px 20px;
+    margin: auto;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.header__wrap {
+    width: 138px;
+    height: 138px;
+    position: relative;
+}
+
+.header__link::before {
+    content: '';
+    background: url(../img/header/logo.png);
+    background-size: 138px auto;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

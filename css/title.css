@@ -1,0 +1,13 @@
+.title__text {
+    font-size: 30px;
+    font-weight: 700;
+    display: inline;
+    margin-right: 20px;
+}
+
+.title__svg {
+    display: inline;
+    vertical-align: middle;
+    width: 280px;
+    height: 79px;
+}
