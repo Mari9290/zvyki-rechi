@@ -4,6 +4,11 @@
 @import url(footer.css);
 @import url(social.css);
 @import url(advantages-game.css);
+@import url(game-label.css);
+@import url(cta-price.css);
+@import url(cta-text.css);
+@import url(improve-game.css);
+@import url(cta-btn.css);
 
 @font-face {
     font-family: Ubuntu;
@@ -105,6 +110,39 @@ section, aside {
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 50px;
+}
+
+.btn {
+    border-radius: 20px;
+    background: #F27575;
+    padding: 20px 50px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    transition: background-color .2s ease, 
+    box-shadow .3s ease;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.btn-flare {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 45px;
+    transform: skewX(-45deg);
+    animation: flare 2s infinite linear;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.4));
+    left: -150%;
+}
+
+@keyframes flare {
+    0% {
+        left: -150%;
+    }
+    100% {
+        left: 150%;
+    }
 }
 
 
