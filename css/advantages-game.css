@@ -64,11 +64,11 @@
     left: -15px;
 }
 
-/* @media (max-width: 500px) {
+@media (max-width: 500px) {
     .advantages-game__item {
         width: 225px;
         font-size: 12px;
     }
-} */
+}
 
 
