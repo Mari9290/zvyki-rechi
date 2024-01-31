@@ -1,5 +1,5 @@
 .nav {
-    width: 100%;
+    width: 80%;
 }
 
 .nav__list {
@@ -27,7 +27,7 @@
     }
 }
 
-@media (max-width: 1120px) {
+@media (max-width: 1170px) {
     .hamburger {
         width: 30px;
         position: absolute;

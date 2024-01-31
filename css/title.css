@@ -1,6 +1,4 @@
 .title__text {
-    font-size: 30px;
-    font-weight: 700;
     display: inline;
     margin-right: 20px;
 }
@@ -10,4 +8,17 @@
     vertical-align: middle;
     width: 280px;
     height: 79px;
+}
+
+
+@media (max-width: 1000px) {
+    .title__svg {
+        width: 220px;
+    }
+}
+
+@media (max-width: 500px) {
+    .title__svg {
+        width: 200px;
+    }
 }
