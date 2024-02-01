@@ -43,3 +43,9 @@
     height: 138px;
 }
 
+@media (max-width: 1170px) {
+    .footer__list {
+        gap: 20px;
+    }
+}
+

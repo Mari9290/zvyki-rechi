@@ -9,6 +9,10 @@
 @import url(cta-text.css);
 @import url(improve-game.css);
 @import url(cta-btn.css);
+@import url(advantages-gym.css);
+@import url(gym-label.css);
+@import url(cta-gym.css);
+@import url(text.css);
 
 @font-face {
     font-family: Ubuntu;
@@ -41,7 +45,7 @@ body {
     background-color: #F5F5F5;
     font-family: Ubuntu, sans-serif;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 400;
     color: #000000;
     position: relative;
     overflow-x: hidden;
@@ -126,6 +130,10 @@ section, aside {
     overflow-x: hidden;
 }
 
+.btn-green {
+    background: linear-gradient(91deg, #54A582 0.34%, #6fb698 112.11%);
+}
+
 .btn-flare {
     position: absolute;
     top: 0;
@@ -165,6 +173,10 @@ section, aside {
 
     .heading {
         font-size: 20px;
+    }
+
+    .btn {
+        font-size: 18px;
     }
 
 }
