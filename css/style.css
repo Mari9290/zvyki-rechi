@@ -140,6 +140,7 @@ section, aside {
 
 .btn-green {
     background: linear-gradient(91deg, #54A582 0.34%, #6fb698 112.11%);
+    box-shadow: 0px 10px 10px 0px rgba(23, 180, 109, 0.3)
 }
 
 .btn-flare {
