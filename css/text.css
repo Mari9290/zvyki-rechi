@@ -7,3 +7,7 @@
 .text__par {
     margin-bottom: 10px;
 }
+
+.text__item::before {
+    content: '🏆';
+}
