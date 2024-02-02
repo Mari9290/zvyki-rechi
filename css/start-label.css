@@ -1,25 +1,33 @@
-.gym-label__item {
+.start-label__item {
     position: relative;
 }
 
 
-.gym-label__link-manul::before {
-    content: url(../img/gym-label/manul.svg);
+.start-label__link-ay::before {
+    content: url(../img/start-label/ay.svg);
     position: absolute;
     top: -50px;
     left: 30px;
     z-index: 1;
 }
 
-.gym-label__link-tree::before {
-    content: url(../img/gym-label/ny_tree.svg);
+.start-label__link-owl::before {
+    content: url(../img/start-label/owl.svg);
     position: absolute;
     top: -50px;
     left: 20px;
     z-index: 1;
 }
 
-.gym-label__link {
+.start-label__link-cow::before {
+    content: url(../img/start-label/cow.svg);
+    position: absolute;
+    top: -50px;
+    left: 20px;
+    z-index: 1;
+}
+
+.start-label__link {
     color: #613957;
     font-size: 14px;
     font-weight: 700;
@@ -34,7 +42,7 @@
     text-align: center;
 }
 
-.gym-label__list {
+.start-label__list {
     display: flex;
     justify-content: center;
     gap: 50px;

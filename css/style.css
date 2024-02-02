@@ -13,6 +13,8 @@
 @import url(gym-label.css);
 @import url(cta-gym.css);
 @import url(text.css);
+@import url(advantages-start.css);
+@import url(start-label.css);
 
 @font-face {
     font-family: Ubuntu;

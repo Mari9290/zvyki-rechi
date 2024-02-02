@@ -14,6 +14,10 @@
     margin-bottom: 50px;
 }
 
+.improve-game__list-start {
+    max-width: 1000px;
+}
+
 .improve-game__span {
     border-radius: 15px;
     background: #F9F4F8;

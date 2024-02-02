@@ -17,23 +17,23 @@
     position: relative;
 }
 
-.game-label__item:nth-child(1)::before {
+.game-label__link-fox::before {
     content: url(../img/game-label/fox_donat.svg);
     position: absolute;
     top: -50px;
     left: 30px;
-    z-index: 1;
+    z-index: 0;
 }
 
-.game-label__item:nth-child(2)::before {
+.game-label__link-beaver::before {
     content: url(../img/game-label/beaver_gift.svg);
     position: absolute;
     top: -50px;
     left: 20px;
-    z-index: 1;
+    z-index: 0;
 }
 
-.game-label__item:nth-child(3)::before {
+.game-label__link-manul::before {
     content: url(../img/game-label/manul.svg);
     position: absolute;
     top: -50px;
@@ -41,7 +41,7 @@
     z-index: 1;
 }
 
-.game-label__item:nth-child(4)::before {
+.game-label__link-squirrel::before {
     content: url(../img/game-label/squirrel_e.svg);
     position: absolute;
     top: -50px;
