@@ -4,6 +4,7 @@
 @import url(title.css);
 @import url(footer.css);
 @import url(social.css);
+@import url(cta.css);
 @import url(advantages-game.css);
 @import url(game-label.css);
 @import url(cta-price.css);
@@ -184,7 +185,7 @@ section, aside {
     }
 
     section {
-        padding: 50px 0 20px 0;
+        padding: 25px 0 20px 0;
     } 
 
     .heading {

@@ -26,3 +26,9 @@
     left: 0;
     right: 0;
 }
+
+@media (max-width: 500px) {
+    .header {
+        padding: 25px 20px;
+    }
+}
