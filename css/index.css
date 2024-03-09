@@ -21,6 +21,7 @@
 @import url(auto-label.css);
 @import url(advantages-atten.css);
 @import url(atten-label.css);
+@import url(props.css);
 
 @font-face {
     font-family: Ubuntu;
@@ -193,7 +194,7 @@ section, aside {
     }
 
     .btn {
-        font-size: 18px;
+        font-size: 16px;
     }
 
 }
