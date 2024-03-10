@@ -1,27 +1,30 @@
-.mainlk {
+.maincontacts {
     background-image: url(../img/mainlk/bacground.svg);
     background-repeat: no-repeat;
     background-position: 25% 30%;
+    background-size: 70%;
+    height: 70vh;
 }
 
-.social-payment__link {
+.contacts__link {
     text-decoration-line: underline;
 }
 
-.social-payment__list {
+.contacts__list {
     display: flex;
     gap: 60px;
     flex-wrap: wrap;
-}
-
-.social-payment__text {
-    color: #757373;
-    font-size: 12px;
     margin-bottom: 50px;
 }
 
+.contacts__text {
+    color: #757373;
+    font-size: 12px;
+    margin-bottom: 100px;
+}
+
 @media (max-width: 500px) {
-    .mainlk {
+    .maincontacts {
         background-size: cover;
     }
 }

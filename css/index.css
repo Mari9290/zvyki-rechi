@@ -27,6 +27,7 @@
 @import url(reviews.css);
 @import url(social-payment.css);
 @import url(authorization.css);
+@import url(contacts.css);
 
 @font-face {
     font-family: Ubuntu;
