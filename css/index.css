@@ -24,6 +24,7 @@
 @import url(props.css);
 @import url(skill.css);
 @import url(video.css);
+@import url(reviews.css);
 
 @font-face {
     font-family: Ubuntu;

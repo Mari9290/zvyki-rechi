@@ -176,22 +176,24 @@
             <div class="container video__container">
                 <h2 class="heading">Как это происходит?</h2>
 
-                <video 
-                    autoplay 
-                    muted 
-                    loop 
-                    controls 
-                    class="video__video"
-                >
-                    <source src="#" type="video/mp4">
-                </video>
+                <div class="video__wrap">
+                    <video 
+                        autoplay 
+                        muted 
+                        loop 
+                        controls 
+                        class="video__video"
+                    >
+                        <source src="#" type="video/mp4">
+                    </video>
 
-                <div class="video__wrapper">
-                    <a class="btn video__btn" href="gameList.html">Попробовать бесплатно</a>
-                </div>
+                    <div class="video__wrapper">
+                        <a class="btn video__btn" href="gameList.html">Попробовать бесплатно</a>
+                    </div>
 
-                <div>
-                    <a class="btn btn-green" href="price.html">Узнать стоимость</a>
+                    <div>
+                        <a class="btn btn-green video__btn" href="price.html">Узнать стоимость</a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -199,11 +201,29 @@
         <section class="reviews">
             <div class="reviews__container container">
 
-                <h2 class="heading reviews__heading">Отзывы</h2>
+                <h2 class="reviews__head">Отзывы</h2>
 
                 <p class="reviews__text">
                     Перед запуском проекта мы предоставили ранний доступ фокус группе, в которую входили как специалисты разных областей логопедии, так и родители без спец знаний. Мы смотрели за их результатами и в конце работы попросили дать оценку нашим играм. Будем признательны, если вы также оставите отзыв
                 </p>
+
+                <div class="clearfix reviews__wrap">
+                <div class="reviews__wrap-float">
+                    <button class="reviews__btn" id="btnBack">
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="30" cy="30" r="29" stroke="white" stroke-width="2"/>
+                        <path d="M17.2929 29.2929C16.9024 29.6834 16.9024 30.3166 17.2929 30.7071L23.6569 37.0711C24.0474 37.4616 24.6805 37.4616 25.0711 37.0711C25.4616 36.6805 25.4616 36.0474 25.0711 35.6569L19.4142 30L25.0711 24.3431C25.4616 23.9526 25.4616 23.3195 25.0711 22.9289C24.6805 22.5384 24.0474 22.5384 23.6569 22.9289L17.2929 29.2929ZM42 29L18 29L18 31L42 31L42 29Z" fill="white"/>
+                        </svg>
+                    </button>
+
+                    <button class="reviews__btn" id="btnNext">
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="30" cy="30" r="29" stroke="white" stroke-width="2"/>
+                            <path d="M42.7071 30.7071C43.0976 30.3166 43.0976 29.6834 42.7071 29.2929L36.3431 22.9289C35.9526 22.5384 35.3195 22.5384 34.9289 22.9289C34.5384 23.3195 34.5384 23.9526 34.9289 24.3431L40.5858 30L34.9289 35.6569C34.5384 36.0474 34.5384 36.6805 34.9289 37.0711C35.3195 37.4616 35.9526 37.4616 36.3431 37.0711L42.7071 30.7071ZM18 31L42 31V29L18 29V31Z" fill="white"/>
+                        </svg>
+                    </button>
+                </div>
+                </div>
 
                 <ul class="reviews__list">
 
@@ -231,7 +251,7 @@
                 
 
                     
-                    <li class="reviews__item reviews__hidden" id="threeComment">
+                    <li class="reviews__item hidden" id="threeComment">
                         <div class="reviews__hat">
                             <img class="reviews__image" src="img/reviews/Maria-Batanova.jpeg" alt="фото для отзыва" width="48">
                             <div class="reviews__heading">
@@ -243,7 +263,7 @@
                             Рекомендую специалистам и родителям!</p>
                     </li>
 
-                    <li class="reviews__item reviews__hidden" id="fourComment">
+                    <li class="reviews__item hidden" id="fourComment">
                         <div class="reviews__hat">
                             <img class="reviews__image" src="img/reviews/Olga-Dryhlova.jpeg" alt="фото для отзыва" width="48">
                             <div class="reviews__heading">
@@ -331,5 +351,6 @@
 
     <script src="js/gamburger.js"></script>
     <script src="js/copyrigt.js"></script>
+    <script src="js/show.js"></script>
 </body>
 </html>
