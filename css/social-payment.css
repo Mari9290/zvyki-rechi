@@ -1,0 +1,21 @@
+.mainlk {
+    background-image: url(../img/mainlk/bacground.svg);
+    background-repeat: no-repeat;
+    background-position: 25% 30%;
+}
+
+.social-payment__link {
+    text-decoration-line: underline;
+}
+
+.social-payment__list {
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.social-payment__text {
+    color: #757373;
+    font-size: 12px;
+    margin-bottom: 50px;
+}
