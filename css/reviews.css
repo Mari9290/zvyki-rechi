@@ -97,6 +97,12 @@
     max-width: 1050px;
 }
 
+@media (max-width: 1200px) {
+    .reviews__list {
+        margin-bottom: -60px;
+    }
+}
+
 @media (max-width: 500px) {
     .reviews__head {
         font-size: 20px;
@@ -104,5 +110,9 @@
 
     .reviews__text {
         font-size: 14px;
+    }
+
+    .reviews__list {
+        margin-bottom: -35px;
     }
 }
