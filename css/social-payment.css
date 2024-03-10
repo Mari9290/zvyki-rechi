@@ -25,3 +25,10 @@
         background-size: cover;
     }
 }
+
+@media (max-width: 500px) {
+    .social-payment__list {
+        justify-content: space-around;
+        gap: 100px;
+    }
+}
