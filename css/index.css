@@ -29,6 +29,9 @@
 @import url(authorization.css);
 @import url(contacts.css);
 @import url(price.css);
+@import url(diagnostic-hat.css);
+@import url(diagnostic-label.css);
+@import url(test.css);
 
 @font-face {
     font-family: Ubuntu;
