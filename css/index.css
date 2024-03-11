@@ -151,12 +151,21 @@ section, aside {
 }
 
 .btn:active {
-    background: linear-gradient(91deg, #54A582 0.34%, #6fb698 112.11%);
+    background: linear-gradient(91deg, #b75355 0.34%, #b06465 112.11%);
 }
 
 .btn-green {
     background: linear-gradient(91deg, #54A582 0.34%, #6fb698 112.11%);
-    box-shadow: 0px 10px 10px 0px rgba(23, 180, 109, 0.3)
+    box-shadow: 0px 10px 10px 0px rgba(23, 180, 109, 0.3);
+}
+
+.btn-green:hover {
+    box-shadow: 0px 15px 15px 0px rgba(23, 180, 109, 0.3);
+    color: #fff;
+}
+
+.btn-green:active {
+    background: linear-gradient(91deg, #3c775d 0.34%, #518570 112.11%);
 }
 
 .btn-flare {
