@@ -1,0 +1,39 @@
+.button {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button__start-on {
+    position: relative;
+    width: 50px;
+    background-color: white;
+}
+
+.button__start-on::after {
+    content: url(../img/icon/sound-on.svg);
+    width: 50px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px;
+    background-color: white;
+}
+
+.button__play {
+    position: relative;
+    width: 50px;
+}
+
+.button__play:after {
+    content: url(../img/icon/play.svg);
+    width: 50px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px;
+    background-color: white;
+}

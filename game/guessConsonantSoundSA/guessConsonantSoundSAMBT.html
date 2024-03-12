@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Угадай звук?</title>
+    <link rel="stylesheet" href="src/css/guessConsonantSoundSA.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+<link rel="icon" href="src/favicon/favbg.svg" type="image/x-icon">
+</head>
+<body>
+    <!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();
+   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(94869008, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/94869008" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+    <p class="warning">Переверните экран</p>
+    <a href="../sattention.html" class="leftbtndiv"><img class="leftbtn" src="src/image_play/left.png" alt="кнопка назад" width="50"></a>
+    
+        <div class="btn-container container-test">
+        <button id="modalopen" class="open-popupo">Оk</button>
+    </div>
+    <div class="popup__bgo"> 
+        <div class="popupo">
+            <div><img src="src/image_play/crystal.png" alt="алмаз" width="100"></div>
+            <p class="text">Полная версия этой игры и другие игры доступны по подписке</p>
+            <button class="close-popupo"><a class="btn-cta" href="lk.html">Оформить подписку</a></button>
+        </div>
+    </div>
+    
+    
+    <!-- Инструкция -->
+
+<div class="header">
+
+    
+    <div>
+        <h1>Угадай звук?</h1>
+    </div>
+
+  
+    <div class="instruction">
+        <p>
+            Здесь у нас живут звуки. Послушай и запомни всё.  <br>
+            Теперь нажми кнопку "НАЧАТЬ ИГРУ" и услышишь звук. <br>
+            Вспомни и покажи, что это был за звук (введите цифру для проверки ответа)</p>
+    </div>
+</div>
+    <!--Контейнер с рисунками и музыкой-->
+
+    <div class="container">
+    <button class="element" id="elementOne"><img class="card" src="src/image_play/Bdrum.png" alt="барабан" width="230">1</button>
+    <button class="element" id="elementTwo"><img class="card" src="src/image_play/Mcow.png" alt="корова" width="230">2</button>
+    <button class="element" id="elementThree"><img class="card" src="src/image_play/Thammer.png" alt="молоток" width="230">3</button>
+    
+    
+    <audio id="audioOne" src="src/sound_play/Bdrum.mp4"></audio>
+    <audio id="audioTwo" src="src/sound_play/Mcow.mp4"></audio>
+    <audio id="audioThree" src="src/sound_play/Thammer.mp4"></audio>
+    </div>
+
+<!--Кнопки-->
+
+
+
+
+        <div class="containerRandom">
+            <button id="repit">повтор</button>
+            <button id="sound">Начать игру</button>
+            <input type="text" placeholder="Введи число" id="guess">
+            <button id="btn">ок</button>
+        </div>
+
+        <div class="containerReload">
+        <button id="reload">ЕЩЁ РАЗ</button>
+        <button class="next"> <a class="next-btn" href="guessConsonantSoundSAHSK.html">НАЗАД</a> </button>
+        <button class="next"> <a class="next-btn" href="guessConsonantSoundSANVD.html">ДАЛЕЕ</a> </button>
+        </div>
+
+          <div class="popup__bg"> 
+            <div class="popup">
+                <p class="textpopup">Введи число от 1 до 4!</p>
+                <button class="close-popup">ОК</button>
+            </div>
+        </div>
+
+        <div class="popup__bgch"> 
+            <div class="popupch">
+                <p class="textpopup">Нужно ввести число!</p>
+                <button class="close-popupch">ОК</button>
+            </div>
+        </div>
+
+        <div class="popup__bgyes"> 
+            <div class="popupyes">
+                <img src="src/image_play/FineFox.png" alt="правильно" width="200">
+                <button class="close-popupyes">ОК</button>
+            </div>
+        </div>
+
+        <div class="popup__bgno"> 
+            <div class="popupno">
+                <img src="src/image_play/BadlyFox.png" alt="неправильно" width="200">
+                <button class="close-popupno">ОК</button>
+            </div>
+        </div>  
+    
+
+    <script src="guessConsonantSoundSA.js"></script>
+</body>
+</html>

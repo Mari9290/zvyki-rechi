@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Звуки речи - логопедические онлайн-игры. Помощник в занятиях с педагогом и в выполнении домашних заданий с родителями.">
+    <title>Слияние гласных</title>
+    <link rel="stylesheet" href="src/css/confTwoVowelsSS.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="src/favicon/favbg.svg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();
+   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(94869008, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/94869008" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+    <a href="../startSpeech.html" class="leftbtndiv"><img class="leftbtn" src="src/image_play/left.png" alt="кнопка назад" width="50"></a>
+    
+        <div class="btn-container container-test">
+        <button id="modalopen" class="open-popupo">Оk</button>
+    </div>
+    <div class="popup__bgo"> 
+        <div class="popupo">
+            <div><img src="src/image_play/crystal.png" alt="алмаз" width="100"></div>
+            <p class="text">Полная версия этой игры и другие игры доступны по подписке</p>
+            <button class="close-popupo"><a class="btn-cta" href="lk.html">Оформить подписку</a></button>
+        </div>
+    </div>
+
+    <p class="warning">Переверните экран</p>
+
+    <!--Инструкция-->
+    <div class="header" ><h1>Слияние гласных</h1></div>
+    <div class="container-instruction">
+        <p class="instruction">
+            Помоги звукам подружиться! <br> Пока первый звук едет, пропевай его песенку. <br>
+            А когда он подъедет к своему другу – пропой песенку друга. <br>
+            Потом попробуй сделать это быстрее! <br>
+            (ребенок растягивает гласные в песню, плавно, без пауз: аааууу)
+        </p>
+    </div>
+
+    <!--Персонаж-->
+    <div class="container-big">
+
+    <div class="container">
+
+        <img id="characterOne" class="character" src="src/image_play/Asquirrel.png" alt="звук А">
+        <div class="road"></div>
+        <img id="characterTwo" class="character" src="src/image_play/Usquirrel.png" alt="звук У">
+
+    </div>
+
+
+
+    <!--Кнопки-->
+
+    <div class="container-btn">
+
+    <button id="start" class="btn" >
+        <img class="btn-image" src="src/image_play/play.png" alt="кнопка старт" width="70">
+        <p id="text-start" class="text-btn">Старт</p>
+    </button>
+
+    <button id="startOne" class="btn" >
+        <img class="btn-image" src="src/image_play/play.png" alt="кнопка старт" width="70">
+        <p id="text-startOne" class="text-btn">Старт</p>
+    </button>
+
+    <button id="startTwo" class="btn" >
+        <img class="btn-image" src="src/image_play/play.png" alt="кнопка старт" width="70">
+        <p id="text-startTwo" class="text-btn">Старт</p>
+    </button>
+
+    <button id="startThree" class="btn" >
+        <img class="btn-image" src="src/image_play/play.png" alt="кнопка старт" width="70">
+        <p id="text-startThree" class="text-btn">Старт</p>
+    </button>
+
+    <button id="startFour" class="btn" >
+        <img class="btn-image" src="src/image_play/play.png" alt="кнопка старт" width="70">
+        <p id="text-startFour" class="text-btn">Старт</p>
+    </button>
+
+    <button id="startFive" class="btn" >
+        <img class="btn-image" src="src/image_play/play.png" alt="кнопка старт" width="70">
+        <p id="text-startFive" class="text-btn">Старт</p>
+    </button>
+
+    <button id="startSix" class="btn" >
+        <img class="btn-image" src="src/image_play/play.png" alt="кнопка старт" width="70">
+        <p id="text-startSix" class="text-btn">Старт</p>
+    </button>
+
+    <button id="next" class="btn" >
+        <img id="nextImage" class="btn-image" src="src/image_play/right.png" alt="кнопка некст" width="70">
+        <p class="text-btn" id="textRepit">Далее</p>
+    </button>
+</div>
+</div>
+
+<audio id="audioOne" src="src/sound_play/au.mp4"></audio>
+<audio id="audioTwo" src="src/sound_play/ao.mp4"></audio>
+<audio id="audioThree" src="src/sound_play/ia.mp4"></audio>
+<audio id="audioFour" src="src/sound_play/uo.mp4"></audio>
+<audio id="audioFive" src="src/sound_play/oa.mp4"></audio>
+<audio id="audioSix" src="src/sound_play/ay.mp4"></audio>
+<audio id="audioSeven" src="src/sound_play/oe.mp4"></audio>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="confTwoVowelsSS.js"></script>
+</body>
+</html>

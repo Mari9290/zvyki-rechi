@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вокруг света</title>
+    <link rel="stylesheet" href="isolationSH.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="../../img/favicon/favbg.svg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();
+   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(94869008, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/94869008" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+<a href="../../automationS.html" class="leftbtndiv"><img class="leftbtn" src="../image_play/left.png" alt="кнопка назад" width="50"></a>
+
+    <div class="btn-container container-test">
+        <button id="modalopen" class="open-popupo">Оk</button>
+    </div>
+    <div class="popup__bgo"> 
+        <div class="popupo">
+            <div><img src="../image_play/crystal.png" alt="алмаз" width="100"></div>
+            <p class="text">Полная версия этой игры и другие игры доступны по подписке</p>
+            <button class="close-popupo"><a class="btn-cta" href="../../lk.html">Оформить подписку</a></button>
+        </div>
+    </div>
+<p class="warning">Переверните экран</p>
+
+<!--Инструкция-->
+<div class="header" ><h1>Вокруг света</h1></div>
+<div class="container-instruction">
+    <p class="instruction">
+        Белочка отправилась в путешествие. <br>
+        Помоги ей добраться до цели: чтобы воздушный шар летел, <br>
+        подними язычок к верхним зубам в форме "чашечки", <br>
+        набери воздух и подуй на язык со звуком [Ш].
+    </p>
+    <p class="instruction">
+        Для начала нажмите "СТАРТ", если ребенок произнёс звук правильно, <br> 
+        нажмите "ВЕРНО", если нет попробуйте ещё раз. <br>
+        Для усложнения задания нажмите "ДОПОЛНИТЕЛЬНОЕ ЗАДАНИЕ". <br>
+        Нажмите кнопку "Далее", для нового путешествия.
+    </p>
+</div>
+    <!--Персонаж-->
+<div class="container-big">
+    <div class="container-element">
+        <button class="character-btn" id="character">
+        <img class="character" src="../image_play/squirrelOnBall.png" alt="" width="300"></button>
+        <p class="road">             </p>
+        <img class="element-one" id="element" src="../image_play/mountain.png" alt="" width="300">
+    </div>
+    <!--Кнопки-->
+    <div class="container-btn">
+        <button id="start"><img class="play" id="play" src="../image_play/play.png" alt="старт" width="70"><p id="text-start" class="text-btn">Старт</p></button>
+       <button id="hard" class="open-popup"><img class="plus" src="../image_play/plus.png" alt="доп" width="70"> <p class="text-btn" >Дополнительное <br>задание</p></button>
+        <button id="right" class="open-popupyes"><img class="right" src="../image_play/correct.png" alt="верно" width="70"><p class="text-btn">Верно</p></button>
+        <button id="notTrue"><img class="next" id="next" src="../image_play/right.png" alt="далее" width="70"><p class="text-btn" id="textRepit">Далее</p></button>
+    </div>
+</div>
+
+<div class="popup__bg"> 
+    <div class="popup">
+        <p class="textpopup">Придумай слово, начинающееся на звук Ш!</p>
+        <button class="close-popup">ОК</button>
+    </div>
+</div>
+<div class="popup__bgyes"> 
+    <div class="popupyes">
+        <img src="../image_play/squirrel5.png" alt="правильно" width="200">
+        <button class="close-popupyes">ОК</button>
+    </div>
+</div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="isolationSH.js"></script>
+</body>
+</html>

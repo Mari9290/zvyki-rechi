@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Звуки речи - логопедические онлайн-игры. Помощник в занятиях с педагогом и в выполнении домашних заданий с родителями."/>
+    <title>Лопни пузырь</title>
+    <link rel="stylesheet" href="syllablesSoundS.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="../../img/favicon/favbg.svg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();
+   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(94869008, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/94869008" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+    <a href="../../automationS.html"><img src="../image_play/left.png" alt="кнопка назад" width="50"></a>
+        <div class="btn-container container-test">
+        <button id="modalopen" class="open-popupo">Оk</button>
+    </div>
+    <div class="popup__bgo"> 
+        <div class="popupo">
+            <div><img src="../image_play/crystal.png" alt="алмаз" width="100"></div>
+            <p class="text">Полная версия этой игры и другие игры доступны по подписке</p>
+            <button class="close-popupo"><a class="btn-cta" href="../../lk.html">Оформить подписку</a></button>
+        </div>
+    </div>
+    <!--Инструкция-->
+    <div class="header" ><h1>Лопни пузырь!</h1></div>
+    <div class="container-instruction">
+        <p class="instruction">Все котики любят играть, и даже дикие. <br>
+            Помоги манулу поймать все мыльные пузыри! <br>
+            Прочитай слог на каждом пузырьке, четко произнося все звуки, <br>
+            затем нажми на него. Поймай все пузырьки как можно быстрее!</p>
+    </div>
+
+<!--Персонаж-->
+<div class="container-big">
+    <div class="container-character">
+        <img class="character" src="../image_play/manul.png" alt="Манул" width="300">
+    </div>
+
+    <!--Элементы игры-->
+
+<div class="container-element">
+
+    <div class="container-one">
+        
+        <button id="one" class="btn"><img id="oneSyllable" src="../image_play/1.png" alt="" width="200"></button>
+        <button id="two" class="btn"><img id="twoSyllable" src="../image_play/2.png" alt="" width="200"></button>
+    </div>
+
+    <div class="container-two">
+        <button id="three" class="btn"><img id="threeSyllable" src="../image_play/3.png" alt="" width="200"></button>
+        <button id="four" class="btn"><img id="fourSyllable" src="../image_play/4.png" alt="" width="200"></button>
+    </div>
+
+    <audio id="audioChpok" src="../sound_play/chpok2.mp3"></audio>
+</div>
+
+<!--Кнопки управления-->
+
+
+
+<div class="container-btn">
+<button id="hard" class="open-popup"> <img class="plus" src="../image_play/plus.png" alt="плюс" width="70"><p class="text-btn" >Дополнительное<br>задание</p></button>
+<button id="next"><img src="../image_play/right.png" alt="стрелка вправо" width="70"><p class="text-btn" >Следующий<br>уровень</p></button>
+</div>
+</div>
+
+<div class="popup__bg"> 
+    <div class="popup">
+        <p class="textpopup">А теперь попробуй придумать слово с любым из этих слогов!</p>
+        <button class="close-popup">ОК</button>
+    </div>
+</div>
+
+
+
+    <script src="syllablesSoundS.js"></script>
+</body>
+</html>
