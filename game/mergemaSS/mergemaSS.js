@@ -112,8 +112,8 @@ function nextSound () {
   startSecond.style.display = 'none';
   startOne.style.display = 'block';
   startOneSecond.style.display = 'block';
-  characterTwo.setAttribute ('src', '../src/image_play/Usquirrel.png');
-  characterFour.setAttribute ('src', '../src/image_play/Isquirrel.png');
+  characterTwo.setAttribute ('src', '../image_play/Usquirrel.png');
+  characterFour.setAttribute ('src', '../image_play/Isquirrel.png');
   next.addEventListener('click', nextSoundTwo);
 }
 
@@ -176,9 +176,9 @@ function nextSoundTwo () {
     startOneSecond.style.display = 'none';
     startTwo.style.display = 'block';
     startTwoSecond.style.display = 'block';
-    characterTwo.setAttribute ('src', '../src/image_play/Ysquirrel.png');
-    characterFour.setAttribute ('src', '../src/image_play/AEsquirrel.png');
-    nextImage.setAttribute ('src', '../src/image_play/repiat.png');
+    characterTwo.setAttribute ('src', '../image_play/Ysquirrel.png');
+    characterFour.setAttribute ('src', '../image_play/AEsquirrel.png');
+    nextImage.setAttribute ('src', '../image_play/repiat.png');
     next.addEventListener('click', nextSoundLast);
     textRepit.textContent = 'Начать заново';
 }

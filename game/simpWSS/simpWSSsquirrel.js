@@ -36,20 +36,20 @@ setTimeout(function(){
 
 characterFive.addEventListener('click', () => {
     audioChpok.play();
-    characterFive.setAttribute ('src', '../src/image_play/beads.png');
+    characterFive.setAttribute ('src', '../image_play/beads.png');
 })
 
 characterSix.addEventListener('click', () => {
     audioChpok.play();
-    characterSix.setAttribute ('src', '../src/image_play/foxDonuts.png');
+    characterSix.setAttribute ('src', '../image_play/foxDonuts.png');
 })
 
 characterSeven.addEventListener('click', () => {
     audioChpok.play();
-    characterSeven.setAttribute ('src', '../src/image_play/cat.png');
+    characterSeven.setAttribute ('src', '../image_play/cat.png');
 })
 
 characterEight.addEventListener('click', () => {
     audioChpok.play();
-    characterEight.setAttribute ('src', '../src/image_play/notes.png');
+    characterEight.setAttribute ('src', '../image_play/notes.png');
 })

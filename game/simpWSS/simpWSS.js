@@ -37,21 +37,21 @@ setTimeout(function(){
 
 characterOne.addEventListener('click', () => {
     audioChpok.play();
-    characterOne.setAttribute ('src', '../src/image_play/fly.png');
+    characterOne.setAttribute ('src', '../image_play/fly.png');
 })
 
 characterTwo.addEventListener('click', () => {
     audioChpok.play();
-    characterTwo.setAttribute ('src', '../src/image_play/owl.png');
+    characterTwo.setAttribute ('src', '../image_play/owl.png');
 })
 
 characterThree.addEventListener('click', () => {
     audioChpok.play();
-    characterThree.setAttribute ('src', '../src/image_play/perfume.png');
+    characterThree.setAttribute ('src', '../image_play/perfume.png');
 })
 
 characterFour.addEventListener('click', () => {
     audioChpok.play();
-    characterFour.setAttribute ('src', '../src/image_play/sled.png');
+    characterFour.setAttribute ('src', '../image_play/sled.png');
 })
 

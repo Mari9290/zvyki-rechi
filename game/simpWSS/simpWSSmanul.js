@@ -61,7 +61,7 @@ characterOne.addEventListener('click', () =>{
     audioChpok.play();
     gsap.to("#characterOne", {rotation:360, duration: .6, scale: 1.5})
     setTimeout(function() {
-        characterOne.setAttribute('src', '../src/image_play/album.png')
+        characterOne.setAttribute('src', '../image_play/album.png')
     }, 600);
 } );
 
@@ -69,7 +69,7 @@ characterTwo.addEventListener('click', () =>{
     audioChpok.play();
     gsap.to("#characterTwo", {rotation:360, duration: .6, scale: 1.5})
     setTimeout(function() {
-        characterTwo.setAttribute('src', '../src/image_play/album.png')
+        characterTwo.setAttribute('src', '../image_play/album.png')
     }, 600);
 } );
 
@@ -77,7 +77,7 @@ characterThree.addEventListener('click', () =>{
     audioChpok.play();
     gsap.to("#characterThree", {rotation:360, duration: .6, scale: 1.5})
     setTimeout(function() {
-        characterThree.setAttribute('src', '../src/image_play/album.png')
+        characterThree.setAttribute('src', '../image_play/album.png')
     }, 600);
 } );
 
@@ -85,7 +85,7 @@ characterFour.addEventListener('click', () =>{
     audioChpok.play();
     gsap.to("#characterFour", {rotation:360, duration: .6, scale: 1.5})
     setTimeout(function() {
-        characterFour.setAttribute('src', '../src/image_play/album.png')
+        characterFour.setAttribute('src', '../image_play/album.png')
     }, 600);
 } );
 
@@ -93,28 +93,28 @@ characterFive.addEventListener('click', () =>{
     audioChpok.play();
     gsap.to("#characterFive", {rotation:360, duration: .6, scale: 1.5})
     setTimeout(function() {
-        characterFive.setAttribute('src', '../src/image_play/album.png')
+        characterFive.setAttribute('src', '../image_play/album.png')
     }, 600);
 } );
 characterSix.addEventListener('click', () =>{
     audioChpok.play();
     gsap.to("#characterSix", {rotation:360, duration: .6, scale: 1.5})
     setTimeout(function() {
-        characterSix.setAttribute('src', '../src/image_play/album.png')
+        characterSix.setAttribute('src', '../image_play/album.png')
     }, 600);
 } );
 characterSeven.addEventListener('click', () =>{
     audioChpok.play();
     gsap.to("#characterSeven", {rotation:360, duration: .6, scale: 1.5})
     setTimeout(function() {
-        characterSeven.setAttribute('src', '../src/image_play/album.png')
+        characterSeven.setAttribute('src', '../image_play/album.png')
     }, 600);
 } );
 characterEight.addEventListener('click', () =>{
     audioChpok.play();
     gsap.to("#characterEight", {rotation:360, duration: .6, scale: 1.5})
     setTimeout(function() {
-        characterEight.setAttribute('src', '../src/image_play/album.png')
+        characterEight.setAttribute('src', '../image_play/album.png')
     }, 600);
 } );
 

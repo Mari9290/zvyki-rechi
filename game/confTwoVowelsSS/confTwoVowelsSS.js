@@ -84,7 +84,7 @@ next.addEventListener('click', nextSound);
 function nextSound () {
   start.style.display = 'none'
   startOne.style.display = 'block'
-  characterTwo.setAttribute ('src', '../src/image_play/Osquirrel.png');
+  characterTwo.setAttribute ('src', '../image_play/Osquirrel.png');
   next.addEventListener('click', nextSoundTwo);
 }
 
@@ -115,8 +115,8 @@ function soundMergerTwo () {
 function nextSoundTwo () {
   startOne.style.display = 'none'
   startTwo.style.display = 'block'
-  characterOne.setAttribute ('src', '../src/image_play/Isquirrel.png');
-  characterTwo.setAttribute ('src', '../src/image_play/Asquirrel.png');
+  characterOne.setAttribute ('src', '../image_play/Isquirrel.png');
+  characterTwo.setAttribute ('src', '../image_play/Asquirrel.png');
   next.addEventListener('click', nextSoundThree);
 }
 
@@ -148,8 +148,8 @@ function soundMergerThree () {
 function nextSoundThree () {
   startTwo.style.display = 'none'
   startThree.style.display = 'block'
-  characterOne.setAttribute ('src', '../src/image_play/Usquirrel.png');
-  characterTwo.setAttribute ('src', '../src/image_play/Osquirrel.png');
+  characterOne.setAttribute ('src', '../image_play/Usquirrel.png');
+  characterTwo.setAttribute ('src', '../image_play/Osquirrel.png');
   next.addEventListener('click', nextSoundFour);
 }
 
@@ -180,8 +180,8 @@ function soundMergerFour () {
 function nextSoundFour () {
   startThree.style.display = 'none'
   startFour.style.display = 'block'
-  characterOne.setAttribute ('src', '../src/image_play/Osquirrel.png');
-  characterTwo.setAttribute ('src', '../src/image_play/Asquirrel.png');
+  characterOne.setAttribute ('src', '../image_play/Osquirrel.png');
+  characterTwo.setAttribute ('src', '../image_play/Asquirrel.png');
   next.addEventListener('click', nextSoundFive);
 }
 
@@ -211,8 +211,8 @@ function soundMergerFive () {
 function nextSoundFive () {
   startFour.style.display = 'none'
   startFive.style.display = 'block'
-  characterOne.setAttribute ('src', '../src/image_play/Asquirrel.png');
-  characterTwo.setAttribute ('src', '../src/image_play/Ysquirrel.png');
+  characterOne.setAttribute ('src', '../image_play/Asquirrel.png');
+  characterTwo.setAttribute ('src', '../image_play/Ysquirrel.png');
   next.addEventListener('click', nextSoundSix);
 }
 
@@ -243,9 +243,9 @@ function soundMergerSix () {
 function nextSoundSix () {
   startFive.style.display = 'none'
   startSix.style.display = 'block'
-  nextImage.setAttribute ('src', '../src/image_play/repiat.png');
-  characterOne.setAttribute ('src', '../src/image_play/Osquirrel.png');
-  characterTwo.setAttribute ('src', '../src/image_play/AEsquirrel.png');
+  nextImage.setAttribute ('src', '../image_play/repiat.png');
+  characterOne.setAttribute ('src', '../image_play/Osquirrel.png');
+  characterTwo.setAttribute ('src', '../image_play/AEsquirrel.png');
   next.addEventListener('click', nextSoundSeven);
   textRepit.textContent = 'Начать заново';
 }
