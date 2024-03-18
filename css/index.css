@@ -34,6 +34,7 @@
 @import url(test.css);
 @import url(about-us.css);
 @import url(story.css);
+@import url(news.css);
 
 @font-face {
     font-family: Ubuntu;
