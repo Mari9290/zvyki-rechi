@@ -32,6 +32,8 @@
 @import url(diagnostic-hat.css);
 @import url(diagnostic-label.css);
 @import url(test.css);
+@import url(about-us.css);
+@import url(story.css);
 
 @font-face {
     font-family: Ubuntu;
@@ -133,6 +135,10 @@ section, aside {
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 50px;
+}
+
+.heading-center {
+    text-align: center;
 }
 
 .btn {
