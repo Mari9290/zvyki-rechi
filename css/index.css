@@ -225,3 +225,10 @@ section, aside {
 
 }
 
+@media (max-width: 320px) {
+    .btn {
+        font-size: 12px;
+    }
+
+}
+
