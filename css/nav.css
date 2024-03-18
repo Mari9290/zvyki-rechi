@@ -23,11 +23,11 @@
 
 @media (max-width: 1300px) {
     .nav__list {
-        gap: 10px;
+        gap: 7px;
     }
 }
 
-@media (max-width: 1170px) {
+@media (max-width: 1180px) {
     .hamburger {
         width: 30px;
         position: absolute;
