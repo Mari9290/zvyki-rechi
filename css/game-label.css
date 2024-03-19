@@ -17,6 +17,14 @@
     position: relative;
 }
 
+.game-label__link-free::before {
+    content: url(../img/game-label/free-game.svg);
+    position: absolute;
+    top: -50px;
+    left: 20px;
+    z-index: 0;
+}
+
 .game-label__link-fox::before {
     content: url(../img/game-label/fox_donat.svg);
     position: absolute;

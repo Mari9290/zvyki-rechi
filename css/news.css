@@ -40,5 +40,11 @@
     max-width: 550px;
 }
 
+@media (max-width: 450px) {
+    .news__figure { 
+        width: 100%;
+    }
+}
+
 
 
