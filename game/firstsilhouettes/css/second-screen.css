@@ -9,7 +9,6 @@
     animation-fill-mode: forwards;
 }
 
-
 @keyframes path {
 from {
     stroke-dashoffset: 999;
@@ -96,6 +95,18 @@ to {
     background: transparent;
     width: 200px;
     height: 200px;
+    margin-bottom: 5px;
+}
+
+.second-screen__label {
+    position: relative;
+}
+
+.second-screen__caption {
+    font-size: 14px;
+    position: absolute;
+    bottom: -15px;
+    right: 50%;
 }
 
 .second-screen__input {
