@@ -37,7 +37,13 @@
 }
 
 .news__wrapper {
-    max-width: 550px;
+    width: 550px;
+}
+
+@media (max-width: 850px) {
+    .news__wrapper {
+        max-width: 550px;
+    }
 }
 
 @media (max-width: 450px) {
