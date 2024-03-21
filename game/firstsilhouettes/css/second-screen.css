@@ -139,7 +139,7 @@ to {
     }
 }
 
-@media (max-width: 340px) {
+@media (max-width: 360px) {
     .second-screen__wrap-svg{
         width: 110px;
         height: 110px;

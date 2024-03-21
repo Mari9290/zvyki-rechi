@@ -77,13 +77,17 @@
     }
     
     .instruction__img {
-        width: 60px;
+        width: 70px;
     }
 }
 
 
-@media (max-width: 350px) {
+@media (max-width: 365px) {
     .header__link::after {
         width: 30px;
+    }
+
+    .instruction__img {
+        width: 60px;
     }
 }
