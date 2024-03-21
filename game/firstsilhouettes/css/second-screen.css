@@ -27,6 +27,10 @@ to {
     padding-top: 30px;
 }
 
+.second-screen__trumpet-owl {
+    padding-top: 10px;
+}
+
 .second-screen__trumpet-note {
     margin-left: 40px;
     padding-top: 10px;
@@ -49,6 +53,15 @@ to {
 .second-screen__btn-next::after {
     content: url(../img/icon/back.svg);
     transform: rotate(180deg);
+    border: 0.5px solid grey;
+    border-radius: 10px;
+    padding: 3px;
+    width: 50px;
+    display: block;
+}
+
+.second-screen__btn-repit::after {
+    content: url(../img/icon/repit.svg);
     border: 0.5px solid grey;
     border-radius: 10px;
     padding: 3px;
