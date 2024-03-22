@@ -38,6 +38,12 @@ to {
 .second-screen__wrap-btn {
     display: flex;
     gap: 20px;
+    width: 30%;
+}
+
+.second-screen__text-show {
+    width: 70%;
+    max-width: 400px;
 }
 
 .second-screen__btn::after {
@@ -172,11 +178,7 @@ to {
     align-items: flex-end;
 }
 
-.second-screen__text-show {
-    max-width: 200px;
-}
-
-@media (max-width: 830px) {
+@media (max-width: 890px) {
 
     .second-screen__wrap-svg{
         width: 150px;
@@ -205,7 +207,7 @@ to {
 
     .second-screen__text-show {
         font-size: 12px;
-        max-width: 100px;
+        max-width: 200px;
     }
 }
 
@@ -213,5 +215,10 @@ to {
     .second-screen__wrap-svg{
         width: 110px;
         height: 110px;
+    }
+
+    .second-screen__text-show {
+        font-size: 10px;
+        max-width: 120px;
     }
 }

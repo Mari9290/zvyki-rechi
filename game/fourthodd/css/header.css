@@ -89,16 +89,16 @@
     .instruction__img {
         width: 70px;
     }
+
+    .instruction__img {
+        width: 50px;
+    }
 }
 
 
 @media (max-width: 365px) {
     .header__link::after {
         padding: 0;
-    }
-
-    .instruction__img {
-        width: 50px;
     }
 
     .header__link {
