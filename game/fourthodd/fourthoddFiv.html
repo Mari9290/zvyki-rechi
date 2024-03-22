@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Силуэты. 1 класс слов</title>
+    <link rel="stylesheet" href="css/fourthodd.css">
+    <link rel="icon" href="../../img/favicon/favbg.svg" type="image/x-icon">
+</head>
+<body>
+
+    <section class="header">
+        <div class="container header__container">
+            <a href="../../gameList.html" class="header__link"></a>
+
+            <h2 class="header__title">Силуэты. 1 класс слов</h2>
+
+            <figure class="instruction">
+                <img src="img/header/fox_gift.svg" alt="кусака" class="instruction__img">
+                <figcaption class="instruction__text">Лиса принесла тебе задание! Она покажет 4 картинки, 
+                    а ты определи, какая из картинок лишняя и почему. 
+                    Потом скажи четко, выговаривая звук [Ш]: 
+                    “Ли<b>ш</b>нее .... потому <b>ч</b>то ...”
+                    Потом нажми  на галочку и проверь свой ответ! Удачи!</figcaption>
+            </figure>
+        </div>
+    </section>
+
+
+    <div class="second-screen">
+        <div class="container second-screen__container">
+            <form class="second-screen__form">
+                <fieldset class="second-screen__fieldset">
+                    <label 
+                        for="question2" 
+                        class="second-screen__label"
+                    >
+                        <input 
+                        type="radio" 
+                        name="question" 
+                        id="question2"
+                        class="second-screen__input"
+                        >
+                        <span 
+                            class="second-screen__wrap-svg"
+                            id="wrong1"
+                        >
+
+                            <img class="second-screen__image" src="img/second-screen/5/cabbage.svg" alt="Капуста">
+                        </span>
+                        <span class="second-screen__caption">Капуста</span>
+                    </label>
+
+                    <label 
+                        for="question1"
+                        class="second-screen__label"
+                    >
+                        <input 
+                        type="radio" 
+                        name="question" 
+                        id="question1"
+                        class="second-screen__input"
+                        >
+                        <span 
+                            class="second-screen__wrap-svg"
+                            id="right"
+                        >
+                            <img class="second-screen__image" src="img/second-screen/5/blackberry.svg" alt="Ежевика">
+                        </span>
+                        <span class="second-screen__caption">Ежевика</span>
+                    </label>
+
+                    <label 
+                    for="question3"
+                    class="second-screen__label"
+                    >
+                        <input 
+                        type="radio" 
+                        name="question" 
+                        id="question3"
+                        class="second-screen__input"
+                        >
+                        <span 
+                            class="second-screen__wrap-svg"
+                            id="wrong2"
+                        >
+                            <img class="second-screen__image" src="img/second-screen/5/eggplant.svg" alt="Баклажан">
+                        </span>
+                        <span class="second-screen__caption">Баклажан</span>
+                    </label>
+                
+                    <label 
+                        for="question4"
+                        class="second-screen__label"
+                    >
+                        <input 
+                        type="radio" 
+                        name="question" 
+                        id="question4"
+                        class="second-screen__input"
+                        >
+                        <span 
+                            class="second-screen__wrap-svg"
+                            id="wrong4"
+                        >
+                            <img class="second-screen__image" src="img/second-screen/5/onion.svg" alt="Лук">
+                        </span>
+                        <span class="second-screen__caption">Лук</span>
+                    </label>
+                </fieldset>
+            
+                <div class="second-screen__wrap">
+                    <p id="show" class="second-screen__text-show"></p>
+                
+                    <div class="second-screen__wrap-btn">
+                        <button id="result" class="second-screen__btn"></button>
+                        <a href="fourthoddSix.html" id="next" class="second-screen__btn-next"></a>
+                    </div>
+                </div>
+            
+            </form>
+        </div>
+    </div>
+    
+
+
+    <script src="js/fourthoddFiv.js"></script>
+</body>
+</html>
