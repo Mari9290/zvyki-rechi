@@ -397,9 +397,14 @@ h1 {
 
 
 @media all and (max-width: 1130px) {
-    .container-element {
-        margin-left: 50;
-        margin-right: 50;
+    .instruction {
+        font-size: 10px;
+        margin: 0;
+        padding: 5px;
+    }
+
+    h1{
+        font-size: 20px;
     }
 
     .character-btn {
@@ -420,8 +425,17 @@ h1 {
     }
 
     .container-btn {
-        margin-left: 30px;
-        width: 90%;
+        /* margin-left: 30px;
+        width: 90%; */
+        margin-top: 5px;
+    }
+
+    .play, .plus, .right, .next {
+        width: 40px;
+    }
+
+    .text-btn {
+        font-size: 8px;
     }
 
 }

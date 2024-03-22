@@ -209,6 +209,21 @@ h1 {
     align-self: center;
 }
 
+@media all and (max-width: 900px) {
+    .instruction {
+        font-size: 10px;
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .character {
+        width: 90px;
+    }
+}
+
 @media all and (max-width: 660px) {
 
     .warning {

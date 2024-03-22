@@ -433,16 +433,42 @@ p{
 
 
 
+#repit:hover, #sound:hover, #btn:hover, #reload:hover, .next:hover {
+    cursor: pointer;
+    background-color: #326387;
+}
+
+@media (max-width: 750px) {
+    .card {
+        width: 150px;
+    }
+
+    .instruction__text {
+        font-size: 14px;
+    }
+}
+
+
+
 @media all and (max-width: 600px) {
 
-    .warning {
-        display: block;
+    .card {
+        width: 110px;
     }
 
-    .element {
-        width: 90%;
+    .instruction__text {
+        font-size: 10px;
     }
-    
+
+    #repit, #sound, #btn, #reload, .next-btn, #guess {
+        font-size: 12px;
     }
+
+    .header {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+}
 
 

@@ -12,5 +12,5 @@ result.addEventListener('click', (e) => {
     wrong2.classList.add("wrong-answer");
     wrong4.classList.add("wrong-answer");
     result.classList.add('hidden');
-    show.textContent = 'Самолёт лишний, потому что он летает по небу.'
+    show.textContent = 'Самолёт лишний, потому что это воздушный транспорт, а все остальное - наземный.'
 });

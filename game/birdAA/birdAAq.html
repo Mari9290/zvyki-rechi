@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кто говорит?</title>
+    <link rel="stylesheet" href="birdAA.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+<link rel="icon" href="../../img/favicon/favbg.svg" type="image/x-icon">
+</head>
+<body>
+    
+    <!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();
+   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(94869008, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/94869008" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+    <a href="../../sattention.html" class="leftbtndiv"><img class="leftbtn" src="../image_play/home.svg" alt="кнопка назад" width="50"></a>
+    
+        <!-- <div class="btn-container container-test">
+        <button id="modalopen" class="open-popupo">Оk</button>
+    </div>
+    <div class="popup__bgo"> 
+        <div class="popupo">
+            <div><img src="../image_play/crystal.png" alt="алмаз" width="100"></div>
+            <p class="text">Полная версия этой игры и другие игры доступны по подписке</p>
+            <button class="close-popupo"><a class="btn-cta" href="../../lk.html">Оформить подписку</a></button>
+        </div>
+    </div> -->
+    <!-- Инструкция -->
+
+<div class="header">
+
+    
+    <div>
+        <h1>Кто говорит?</h1>
+    </div>
+
+
+    <div class="instruction">
+        <img src="../image_play/foxWithBinoculars.png" alt="лис с биноклем" width="250">
+        <p>Наша лисичка очень любопытная и хочет изучить голоса птичек. <br>
+            Давай поможем ей в этом! <br> Нажми на птицу, слушай и запоминай, как она разговаривает. <br>
+            Теперь нажми кнопку "НАЧАТЬ ИГРУ" и кто-то из птиц подаст голос. <br> Вспомни, кому он принадлежит.
+            Потом скажи лисе, как эта птица говорит: <br> каркает, кукарекает, кричит или гогочет. <br>
+            Напиши в окошко её порядковый номер и узнай, угадал ты птицу или нет.</p>
+    </div>
+</div>
+    <!--Контейнер с рисунками и музыкой-->
+
+    <div class="container">
+    <button class="bird" id="crow"><img src="../image_play/crow.png" alt="ворона" width="200">1</button>
+    <button class="bird" id="rooster"><img src="../image_play/rooster.png" alt="петух" width="200">2</button>
+    <button class="bird" id="gull"><img src="../image_play/gull.png" alt="чайка" width="200">3</button>
+    <button class="bird" id="goose"><img src="../image_play/goose.png" alt="гусь" width="200">4</button>
+    
+    
+    <audio id="audioCrow" src="../sound_play/1crow.mp3"></audio>
+    <audio id="audioRooster" src="../sound_play/2rooster.mp3"></audio>
+    <audio id="audioGull" src="../sound_play/3gull.mp3"></audio>
+    <audio id="audioGoose" src="../sound_play/4goose.mp3"></audio>
+    </div>
+
+<!--Кнопки-->
+
+
+
+
+        <div class="containerRandom">
+            <button id="repit">повтор</button>
+            <button id="sound">Начать игру</button>
+            <input type="text" placeholder="Введи число" id="guess">
+            <button id="btn">ок</button>
+        </div>
+
+        <div class="containerReload">
+        <button id="reload">ЕЩЁ РАЗ</button>
+        </div>
+
+        <div class="popup__bg"> 
+            <div class="popup">
+                <p class="textpopup">Введи число от 1 до 4!</p>
+                <button class="close-popup">ОК</button>
+            </div>
+        </div>
+
+        <div class="popup__bgch"> 
+            <div class="popupch">
+                <p class="textpopup">Нужно ввести число!</p>
+                <button class="close-popupch">ОК</button>
+            </div>
+        </div>
+
+        <div class="popup__bgyes"> 
+            <div class="popupyes">
+                <img src="../image_play/FineFox.png" alt="правильно" width="200">
+                <button class="close-popupyes">ОК</button>
+            </div>
+        </div>
+
+        <div class="popup__bgno"> 
+            <div class="popupno">
+                <img src="../image_play/BadlyFox.png" alt="неправильно" width="200">
+                <button class="close-popupno">ОК</button>
+            </div>
+        </div>
+    
+
+    <script src="birdAA.js"></script>
+</body>
+</html>

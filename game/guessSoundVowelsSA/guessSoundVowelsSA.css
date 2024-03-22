@@ -279,8 +279,8 @@ body {
     flex-wrap: wrap;
     background-color: rgb(128,128,128, 0.1);
     padding: 15px;
-  border-radius: 20px;
-  margin-top: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
 }
 
 h1 {
@@ -294,7 +294,7 @@ p{
     font-family: 'Montserrat', sans-serif;
     align-self: center;
     text-align: center;
-  line-height: 1.5;
+    line-height: 1.5;
 }
 
 /* Контейнер с музыкой и картинками */
@@ -303,6 +303,7 @@ p{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    gap: 5px;
 }
 
 .element {
@@ -324,6 +325,8 @@ p{
 
 .card {
     background-color: white;
+    object-fit: contain;
+    width: 230px;
 }
 
 /* Контейнер с кнопками */
@@ -428,20 +431,47 @@ p{
     margin-right: 10px;
 }
 
+#repit:hover, #sound:hover, #btn:hover, #reload:hover, .next:hover {
+    cursor: pointer;
+    background-color: #af9202;
+}
+
+@media (max-width: 750px) {
+    .card {
+        width: 150px;
+    }
+
+    .instruction__text {
+        font-size: 14px;
+    }
+}
 
 
 
 @media all and (max-width: 600px) {
 
-    .warning {
+    /* .warning {
         display: block;
+    } */
+
+    .card {
+        width: 110px;
     }
 
-    .element {
-        width: 90%;
+    .instruction__text {
+        font-size: 10px;
     }
-    
+
+    #repit, #sound, #btn, #reload, .next-btn {
+        font-size: 12px;
     }
+
+    .header {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+}
 
 
 

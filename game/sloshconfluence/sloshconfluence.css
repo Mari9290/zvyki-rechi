@@ -272,6 +272,35 @@ h1 {
     align-self: center;
 }
 
+
+@media all and (max-width: 1000px) {
+    h1 {
+        font-size: 20px;
+    }
+
+
+    .instruction {
+        font-size: 9px;
+        margin: 0;
+    }
+
+    .character-main {
+        width: 60px;
+    }
+
+    #characterOne, #characterTwo, #characterThree, #characterFour {
+        width: 100px;
+    }
+
+    .btn-image {
+        width: 45px;
+    }
+
+    .container {
+        margin: 0;
+    }
+}
+
 @media all and (max-width: 660px) {
 
     .warning {

@@ -194,17 +194,34 @@ h1 {
 }
 
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 1000px) {
+    h1 {
+        font-size: 20px;
+    }
 
+    .instruction {
+        font-size: 10px;
+        margin: 0;
+    }
+
+    .character {
+        width: 100px;
+    }
 
     .container {
-        width: 90%;
+        margin-top: 0;
     }
 
-    .container-btn {
-        width: 90%;
-
+    .btn-image {
+        width: 50px;
     }
+
+    .btn {
+        margin: 10px;
+    }
+
+
+
     
     }
 

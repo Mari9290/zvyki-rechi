@@ -203,3 +203,17 @@ h1 {
     text-align: center;
     margin: 0;
 }
+
+@media all and (max-width: 600px) {
+    h1 {
+        padding-top: 50px;
+    }
+
+    .img__gif {
+        width: 300px;
+    }
+
+    .instruction {
+        font-size: 12px;
+    }
+}
