@@ -18,7 +18,7 @@
 }
 
 .header__link::after {
-    content: url(../img/icon/back.svg);
+    content: url(../img/icon/home.svg);
     width: 50px;
     position: absolute;
 }
