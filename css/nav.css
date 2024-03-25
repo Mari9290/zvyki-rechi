@@ -17,6 +17,10 @@
     background: radial-gradient(circle, rgba(254,193,88,1) 0%, rgba(245,245,245,0) 55%);
 }
 
+.nav__item:nth-child(6) .nav__link {
+    background: radial-gradient(circle, rgba(254,193,88,1) 0%, rgba(245,245,245,0) 55%);
+}
+
 .nav__item:last-child {
     margin-left: auto;
 } 
