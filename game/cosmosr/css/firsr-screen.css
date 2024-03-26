@@ -32,7 +32,8 @@
 }
 
 .first-screen__figure-person {
-    animation: emersion-person 0.5 linear 2s ;
+    animation: emersion-person ease 2s;
+    animation-delay: 0.1s;
 }
 
 @keyframes emersion-person {
@@ -48,18 +49,14 @@
 }
 
 .first-screen__figure-rocket {
-    animation: emersion-rocket 0.5 ease-out 3s ;
+    animation: emersion-rocket ease-out 2s;
+    animation-delay: 0.4s;
 }
 
 @keyframes emersion-rocket {
     0% {
         opacity: 0;
         scale: 0;
-    }
-
-    99% {
-        scale: 0.99;
-        opacity: 0.99;
     }
 
     100% {
@@ -69,7 +66,10 @@
 }
 
 .first-screen__figure-poem {
-    animation: emersion-poem 0.3 ease 6s ;
+    opacity: 0;
+    animation: emersion-poem ease 2s ;
+    animation-delay: 0.8s;
+    animation-fill-mode:both
 }
 
 @keyframes emersion-poem {
