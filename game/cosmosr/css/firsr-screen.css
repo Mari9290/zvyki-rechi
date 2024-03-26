@@ -32,44 +32,55 @@
 }
 
 .first-screen__figure-person {
-    animation: emersion-person 0.2 ease 2s ;
+    animation: emersion-person 0.5 linear 2s ;
 }
 
 @keyframes emersion-person {
     0% {
         opacity: 0;
+        scale: 0;
     }
 
     100% {
         opacity: 1;
+        scale: 1;
     }
 }
 
 .first-screen__figure-rocket {
-    animation: emersion-rocket 0.1 ease 8s ;
+    animation: emersion-rocket 0.5 ease-out 3s ;
 }
 
 @keyframes emersion-rocket {
     0% {
         opacity: 0;
+        scale: 0;
+    }
+
+    99% {
+        scale: 0.99;
+        opacity: 0.99;
     }
 
     100% {
         opacity: 1;
+        scale: 1;
     }
 }
 
 .first-screen__figure-poem {
-    animation: emersion-poem 0.1 ease 16s ;
+    animation: emersion-poem 0.3 ease 6s ;
 }
 
 @keyframes emersion-poem {
     0% {
         opacity: 0;
+        scale: 0;
     }
 
     100% {
         opacity: 1;
+        scale: 1;
     }
 }
 
