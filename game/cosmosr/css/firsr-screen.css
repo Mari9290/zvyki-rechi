@@ -86,6 +86,22 @@
 
 .first-screen__wrapper {
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+}
+
+@media (max-width: 997px) {
+    .first-screen__figure-poem {
+        order: -1;
+        align-self: center;
+    }
+
+    .first-screen__img-poem {
+        width: 300px;
+    }
+
+    .first-screen__figure-person, .first-screen__figure-rocket {
+        width: 45%;
+    }
 }
