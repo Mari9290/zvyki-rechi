@@ -2,6 +2,8 @@
 @import url(header.css);
 @import url(firsr-screen.css);
 @import url(header-blue.css);
+@import url(merc-screen.css);
+@import url(red-btn.css);
 
 
 @font-face {
@@ -53,6 +55,7 @@ body {
 .body__cosmos {
     background: url(../img/back-cosmos2.svg) no-repeat center;
     background-size: cover;
+    position: relative;
 }
 
 img,
