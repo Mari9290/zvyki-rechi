@@ -11,3 +11,4 @@ redMerc.addEventListener('click', (e) => {
         poem.classList.add("show");
     }, 4000);
 });
+
