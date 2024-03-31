@@ -26,3 +26,92 @@
     top: 100px;
     width: 200px;
 }
+
+.merc-screen__figure-flag {
+    position: absolute;
+    z-index: 1;
+    left: 50px;
+    top: 100px;
+    width: 50px;
+    /* display: none; */
+    opacity: 0;
+}
+
+.merc-screen__btn-next {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0px 4px 4px 0px rgba(126, 126, 126, 0.25);
+}
+
+.merc-screen__btn-next::after {
+    content: url(../img/icon/forvard-blue.svg);
+    object-fit: contain;
+    padding: 2px;
+}
+
+.merc-screen__btn-next:hover {
+    box-shadow: 0px 8px 8px 0px rgba(126, 126, 126, 0.25);
+    border-radius: 10px;
+}
+
+.merc-screen__btn-next:active {
+    box-shadow: 0px 2px 2px 0px rgba(126, 126, 126, 0.25);
+    border-radius: 10px;
+}
+
+.merc-screen__figure-poem {
+    width: 300px;
+    position: absolute;
+    top: 100px;
+    left: 40%;
+    /* display: none; */
+    opacity: 0;
+}
+
+.show {
+    /* display: block; */
+    /* opacity: 1; */
+    animation: show-block .5s ease;
+    animation-fill-mode: both;
+    /* transition: opacity 0.3s ease; */
+}
+
+@keyframes show-block {
+    0% {
+        opacity: 0;
+        scale: .5;
+    }
+
+    100% {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.move {
+    animation: anim-move 4s ease, cubic-bezier(0,500,1,500);
+    animation-fill-mode: both;
+}
+
+@keyframes anim-move {
+    0% {
+        /* transform: translate(520px, 500px); */
+        bottom: 0;
+        left: 40%;
+        margin: 0;
+        }
+        
+    100% {
+        bottom: 650px;
+        /* left: 40%; */
+        left: 7%;
+        /* top: 100px; */
+        transform: rotate(-35deg);
+        scale: .6;
+        }
+}
