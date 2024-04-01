@@ -14,6 +14,7 @@ redMerc.addEventListener('click', (e) => {
     setTimeout(function(){ 
         flag.classList.add("show");
         poem.classList.add("show");
+        redMerc.style.display = 'none';
     }, 4000);
 });
 
