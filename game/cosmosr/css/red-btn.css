@@ -50,3 +50,29 @@
 .red-btn__button:active::after{ 
     height: 10%; 
 }
+
+@media (max-width: 400px) {
+.red-btn__button{
+	width: 60px;
+	height: 20px;
+}
+
+.red-btn__button::before{
+		width: 60px;
+		height: 20px;
+	}
+
+.red-btn__button::after{
+		width: 60px;
+		height: 20px;
+	}
+}
+
+@media (max-width: 400px) {
+	.red-btn{
+		position: absolute;
+		right: 60px;
+		bottom: 280px;
+	}
+}
+

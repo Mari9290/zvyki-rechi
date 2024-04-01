@@ -18,6 +18,3 @@ redMerc.addEventListener('click', (e) => {
 });
 
 
-// oneAudio.play();
-// twoAudio.pause();
-
