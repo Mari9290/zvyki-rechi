@@ -110,6 +110,45 @@
 }
 
 @media (max-width: 600px) {
+    .merc-screen__figure-poem {
+        top: 110px;
+        right: 0;
+        width: 250px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .merc-screen__figure-merc {
+        top: 200px;
+    }
+
+    .merc-screen__figure-flag {
+        top: 200px;
+    }
+
+    @keyframes anim-move {
+        0% {
+            bottom: 0;
+            left: 40%;
+            margin: 0;
+            }
+    
+        100% {
+            bottom: 500px;
+            left: 7%;
+            transform: rotate(-35deg);
+            scale: .6;
+            }
+    }
+
+    .merc-screen__figure-poem {
+        right: 30px;
+    }
+
+}
+
+@media (max-width: 400px) {
     @keyframes animation-rocket {
         0% {
             margin: -200px;
