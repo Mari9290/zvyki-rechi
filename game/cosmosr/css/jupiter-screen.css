@@ -1,13 +1,13 @@
-.venus-screen {
+.jupiter-screen {
     max-height: 900px;
 }
 
-.venus-screen__container {
+.jupiter-screen__container {
     position: relative;
     min-height: 75vh;
 }
 
-.venus-screen__figure-rocket {
+.jupiter-screen__figure-rocket {
     position: absolute;
     animation: animation-rocket 2s ease;
     animation-fill-mode: both;
@@ -29,14 +29,14 @@
     }
 }
 
-.venus-screen__figure-merc {
+.jupiter-screen__figure-merc {
     position: absolute;
     left: 0;
     top: -60px;
     width: 200px;
 }
 
-.venus-screen__figure-flag {
+.jupiter-screen__figure-flag {
     position: absolute;
     z-index: 1;
     left: 50px;
@@ -45,7 +45,7 @@
     opacity: 0;
 }
 
-.venus-screen__btn-next {
+.jupiter-screen__btn-next {
     position: absolute;
     bottom: 20px;
     right: 70px;
@@ -57,22 +57,22 @@
     box-shadow: 0px 4px 4px 0px rgba(126, 126, 126, 0.25);
 }
 
-.venus-screen__btn-next::after {
+.jupiter-screen__btn-next::after {
     content: url(../img/icon/forvard-blue.svg);
     object-fit: contain;
 }
 
-.venus-screen__btn-next:hover {
+.jupiter-screen__btn-next:hover {
     box-shadow: 0px 8px 8px 0px rgba(126, 126, 126, 0.25);
     border-radius: 10px;
 }
 
-.venus-screen__btn-next:active {
+.jupiter-screen__btn-next:active {
     box-shadow: 0px 2px 2px 0px rgba(126, 126, 126, 0.25);
     border-radius: 10px;
 }
 
-.venus-screen__figure-poem {
+.jupiter-screen__figure-poem {
     width: 300px;
     margin: auto;
     position: absolute;
@@ -133,11 +133,11 @@
             left: 20%;
         }
     }
-    .venus-screen__figure-merc {
+    .jupiter-screen__figure-merc {
         top: 70px;
     }
 
-    .venus-screen__figure-flag {
+    .jupiter-screen__figure-flag {
         top: 70px;
     }
 
@@ -156,7 +156,7 @@
             }
     }
 
-    .venus-screen__figure-poem {
+    .jupiter-screen__figure-poem {
         right: 0;
         left: 0;
         margin: auto;
@@ -164,25 +164,25 @@
 }
 
 @media (max-width: 660px) {
-    .venus-screen__figure-merc {
+    .jupiter-screen__figure-merc {
         top: 150px;
     }
 
-    .venus-screen__figure-flag {
+    .jupiter-screen__figure-flag {
         top: 150px;
     }
 }
 
 @media (max-width: 425px) {
-    .venus-screen__figure-poem {
+    .jupiter-screen__figure-poem {
         top: 0;
     }
 
-    .venus-screen__figure-merc {
+    .jupiter-screen__figure-merc {
         top: 180px;
     }
 
-    .venus-screen__figure-flag {
+    .jupiter-screen__figure-flag {
         top: 180px;
     }
 
@@ -203,8 +203,7 @@
 }
 
 @media (max-width: 400px) {
-    .venus-screen__btn-next {
+    .jupiter-screen__btn-next {
         right: 30px;
     }
 }
-
