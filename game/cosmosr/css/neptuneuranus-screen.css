@@ -1,0 +1,209 @@
+.neptuneuranus-screen {
+    max-height: 900px;
+}
+
+.neptuneuranus-screen__container {
+    position: relative;
+    min-height: 75vh;
+}
+
+.neptuneuranus-screen__figure-rocket {
+    position: absolute;
+    animation: animation-rocket 2s ease;
+    animation-fill-mode: both;
+    bottom: 0;
+    left: 50%;
+    width: 200px;
+    margin-bottom: -200px;
+}
+
+@keyframes animation-rocket {
+    0% {
+        margin: -200px;
+        left: 55%;
+    }
+
+    100% {
+        margin: 0;
+        left: 40%;
+    }
+}
+
+.neptuneuranus-screen__figure-merc {
+    position: absolute;
+    left: 0;
+    top: -60px;
+    width: 200px;
+}
+
+.neptuneuranus-screen__figure-flag {
+    position: absolute;
+    z-index: 1;
+    left: 50px;
+    top: -60px;
+    width: 60px;
+    opacity: 0;
+}
+
+.neptuneuranus-screen__btn-next {
+    position: absolute;
+    bottom: 20px;
+    right: 70px;
+    width: 55px;
+    height: 55px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0px 4px 4px 0px rgba(126, 126, 126, 0.25);
+}
+
+.neptuneuranus-screen__btn-next::after {
+    content: url(../img/icon/forvard-blue.svg);
+    object-fit: contain;
+}
+
+.neptuneuranus-screen__btn-next:hover {
+    box-shadow: 0px 8px 8px 0px rgba(126, 126, 126, 0.25);
+    border-radius: 10px;
+}
+
+.neptuneuranus-screen__btn-next:active {
+    box-shadow: 0px 2px 2px 0px rgba(126, 126, 126, 0.25);
+    border-radius: 10px;
+}
+
+.neptuneuranus-screen__figure-poem {
+    width: 300px;
+    margin: auto;
+    position: absolute;
+    top: -60px;
+    left: 0;
+    right: 0;
+    opacity: 0;
+}
+
+.show {
+    animation: show-block .5s ease;
+    animation-fill-mode: both;
+}
+
+@keyframes show-block {
+    0% {
+        opacity: 0;
+        scale: .5;
+    }
+
+    100% {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.move {
+    animation: anim-move 4s ease, cubic-bezier(0,500,1,500);
+    animation-fill-mode: both;
+    animation-delay: .5s;
+}
+
+@keyframes anim-move {
+    0% {
+        bottom: 0;
+        left: 40%;
+        margin: 0;
+        }
+
+    100% {
+        bottom: 650px;
+        left: 7%;
+        transform: rotate(-35deg);
+        scale: .6;
+        }
+}
+
+
+@media (max-width: 750px) {
+    @keyframes animation-rocket {
+        0% {
+            margin: -200px;
+            left: 20%;
+        }
+    
+        100% {
+            margin: 0;
+            left: 20%;
+        }
+    }
+    .neptuneuranus-screen__figure-merc {
+        top: 70px;
+    }
+
+    .neptuneuranus-screen__figure-flag {
+        top: 70px;
+    }
+
+    @keyframes anim-move {
+        0% {
+            bottom: 0;
+            left: 20%;
+            margin: 0;
+            }
+    
+        100% {
+            bottom: 450px;
+            left: 7%;
+            transform: rotate(-35deg);
+            scale: .6;
+            }
+    }
+
+    .neptuneuranus-screen__figure-poem {
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+}
+
+@media (max-width: 660px) {
+    .neptuneuranus-screen__figure-merc {
+        top: 150px;
+    }
+
+    .neptuneuranus-screen__figure-flag {
+        top: 150px;
+    }
+}
+
+@media (max-width: 425px) {
+    .neptuneuranus-screen__figure-poem {
+        top: 0;
+    }
+
+    .neptuneuranus-screen__figure-merc {
+        top: 180px;
+    }
+
+    .neptuneuranus-screen__figure-flag {
+        top: 180px;
+    }
+
+    @keyframes anim-move {
+        0% {
+            bottom: 0;
+            left: 20%;
+            margin: 0;
+            }
+    
+        100% {
+            bottom: 400px;
+            left: 10%;
+            transform: rotate(-35deg);
+            scale: .6;
+            }
+    }
+}
+
+@media (max-width: 400px) {
+    .neptuneuranus-screen__btn-next {
+        right: 30px;
+    }
+}

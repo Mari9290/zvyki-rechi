@@ -1,0 +1,73 @@
+.final-screen__img {
+    width: 300px;
+}
+
+.final-screen__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.final-screen__figure-poem {
+    opacity: 0;
+    animation: emersion-poem ease 2s ;
+    animation-delay: 0.1s;
+    animation-fill-mode:both
+}
+
+
+.final-screen__btn-next {
+    position: absolute;
+    bottom: 20px;
+    right: 70px;
+    width: 55px;
+    height: 55px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0px 4px 4px 0px rgba(126, 126, 126, 0.25);
+}
+
+.final-screen__btn-next::after {
+    content: url(../img/icon/repit.svg);
+    object-fit: contain;
+}
+
+@keyframes emersion-poem {
+    0% {
+        opacity: 0;
+        scale: 0;
+    }
+
+    100% {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.final-screen__figure-person {
+    opacity: 0;
+    animation: emersion-person ease 2s ;
+    animation-delay: 2.1s;
+    animation-fill-mode:both
+}
+
+@keyframes emersion-person {
+    0% {
+        opacity: 0;
+        scale: 0;
+    }
+
+    100% {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+@media (max-width: 450px) {
+    .final-screen__img {
+        width: 100%;
+    }
+}
