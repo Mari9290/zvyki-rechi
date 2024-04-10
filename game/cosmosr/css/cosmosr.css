@@ -10,6 +10,8 @@
 @import url(saturn-screen.css);
 @import url(neptuneuranus-screen.css);
 @import url(final-screen.css);
+@import url(move.css);
+@import url(show.css);
 
 
 @font-face {

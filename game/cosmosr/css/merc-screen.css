@@ -73,53 +73,14 @@
 }
 
 .merc-screen__figure-poem {
-    width: 300px;
+    width: 450px;
     margin: auto;
     position: absolute;
-    top: -60px;
     left: 0;
     right: 0;
+    top: 0;
     opacity: 0;
 }
-
-.show {
-    animation: show-block .5s ease;
-    animation-fill-mode: both;
-}
-
-@keyframes show-block {
-    0% {
-        opacity: 0;
-        scale: .5;
-    }
-
-    100% {
-        opacity: 1;
-        scale: 1;
-    }
-}
-
-.move {
-    animation: anim-move 4s ease, cubic-bezier(0,500,1,500);
-    animation-fill-mode: both;
-    animation-delay: .5s;
-}
-
-@keyframes anim-move {
-    0% {
-        bottom: 0;
-        left: 40%;
-        margin: 0;
-        }
-
-    100% {
-        bottom: 650px;
-        left: 7%;
-        transform: rotate(-35deg);
-        scale: .6;
-        }
-}
-
 
 @media (max-width: 750px) {
     @keyframes animation-rocket {
@@ -141,25 +102,11 @@
         top: 70px;
     }
 
-    @keyframes anim-move {
-        0% {
-            bottom: 0;
-            left: 20%;
-            margin: 0;
-            }
-    
-        100% {
-            bottom: 450px;
-            left: 7%;
-            transform: rotate(-35deg);
-            scale: .6;
-            }
-    }
-
     .merc-screen__figure-poem {
         right: 0;
         left: 0;
         margin: auto;
+        width: 300px;
     }
 }
 
@@ -185,21 +132,6 @@
     .merc-screen__figure-flag {
         top: 180px;
     }
-
-    @keyframes anim-move {
-        0% {
-            bottom: 0;
-            left: 20%;
-            margin: 0;
-            }
-    
-        100% {
-            bottom: 400px;
-            left: 10%;
-            transform: rotate(-35deg);
-            scale: .6;
-            }
-    }
 }
 
 @media (max-width: 400px) {
@@ -207,3 +139,4 @@
         right: 30px;
     }
 }
+
