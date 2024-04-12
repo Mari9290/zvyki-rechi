@@ -4,10 +4,11 @@
 
 
 .start-label__link-ay::before {
-    content: url(../img/start-label/ay.svg);
+    content: url(../game/firstsilhouettes/img/header/fox_pencil.svg);
     position: absolute;
     top: -50px;
-    left: 30px;
+    left: 10px;
+    right: 10px;
     z-index: 1;
 }
 
