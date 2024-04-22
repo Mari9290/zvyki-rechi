@@ -88,14 +88,14 @@
     line-height: 22px;
 }
 
-.reviews__text {
+/* .reviews__text {
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
     color: #FFFFFF;
     margin-bottom: 35px;
     max-width: 1050px;
-}
+} */
 
 @media (max-width: 1200px) {
     .reviews__list {
