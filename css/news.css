@@ -36,6 +36,16 @@
     margin-bottom: 20px;
 }
 
+.news__par-min {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.news__par-li {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
 .news__wrapper {
     width: 550px;
 }
