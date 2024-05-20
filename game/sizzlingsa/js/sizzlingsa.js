@@ -57,9 +57,6 @@ let closePopupButtonno = document.querySelector('.close-popupno'); // Кнопк
 
 btnOn.addEventListener("click", function() {
     sAudio.play();
-    // twoAudio.pause();
-    // threeAudio.pause();
-    // fourAudio.pause();
     twoImg.classList.remove('form__check');
     oneImg.classList.add('form__check');
     threeImg.classList.remove('form__check');
