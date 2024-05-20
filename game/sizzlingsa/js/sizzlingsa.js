@@ -195,9 +195,6 @@ function play(e) {
 }
 }
 
-// back.addEventListener('click', () => {
-//     location.reload()
-// });
 
 
 
