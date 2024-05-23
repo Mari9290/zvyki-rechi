@@ -6,6 +6,7 @@
 .button__start-on {
     position: relative;
     width: 50px;
+    height: 55px;
     background-color: white;
 }
 
@@ -15,12 +16,14 @@
     border-radius: 10px;
     padding: 3px;
     width: 50px;
+    height: 55px;
     display: block;
 }
 
 .button__play {
     position: relative;
     width: 50px;
+    height: 55px;
 }
 
 .button__play:after {
@@ -29,6 +32,7 @@
     border-radius: 10px;
     padding: 3px;
     width: 50px;
+    height: 55px;
     display: block;
 }
 
