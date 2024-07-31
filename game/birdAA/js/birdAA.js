@@ -2,7 +2,7 @@
 const oneOption = document.querySelector('#oneOption');
 const twoOption = document.querySelector('#twoOption');
 const threeOption = document.querySelector('#threeOption');
-const fourOption = document.querySelector('#goosebtn');
+const fourOption = document.querySelector('#fourOption');
 
 //картинки
 const oneImg = document.querySelector('#oneImg');

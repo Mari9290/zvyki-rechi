@@ -2,7 +2,7 @@
 const oneOption = document.querySelector('#oneOption');
 const twoOption = document.querySelector('#twoOption');
 const threeOption = document.querySelector('#threeOption');
-const fourOption = document.querySelector('#goosebtn');
+const fourOption = document.querySelector('#fourOption');
 
 //картинки
 const oneImg = document.querySelector('#oneImg');
@@ -87,7 +87,6 @@ function startGame (){
     btnOn.style.display = 'none';
     submit.style.display = 'block';
     repit.style.display = 'block';
-    // back.style.display = 'block';
     const musics = [{id:1, name:oneAudio}, {id:2, name:twoAudio}, {id:3, name:threeAudio}, {id:4, name:fourAudio}];
     const answer = Math.floor(Math.random()*4)+1;
     let music = musics.find(item => item.id == answer);

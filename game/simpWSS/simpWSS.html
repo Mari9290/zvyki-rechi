@@ -5,104 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Простые слова</title>
-    <link rel="stylesheet" href="simpWSS.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="css/simpWSS.css">
     <link rel="icon" href="../../img/favicon/favbg.svg" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-   m[i].l=1*new Date();
-   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-   ym(94869008, "init", {
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true,
-        webvisor:true
-   });
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/94869008" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
-    <a href="../../startSpeech.html" class="leftbtndiv"><img class="leftbtn" src="../image_play/home.svg" alt="кнопка назад" width="50"></a>
-    <p class="warning">Переверните экран</p>
-        <div class="btn-container container-test">
-        <button id="modalopen" class="open-popupo">Оk</button>
-    </div>
-    <!-- <div class="popup__bgo"> 
-        <div class="popupo">
-            <div><img src="../image_play/crystal.png" alt="алмаз" width="100"></div>
-            <p class="text">Полная версия этой игры и другие игры доступны по подписке</p>
-            <button class="close-popupo"><a class="btn-cta" href="../../lk.html">Оформить подписку</a></button>
+    <header class="header">
+        <div class="container header__container">
+            <a href="../../startSpeech.html" class="header__link"></a>
+
+            <h2 class="header__title">Простые слова 
+                (I уровень)</h2>
+
+            <figure class="instruction">
+                <img src="img/header/squirrelArtist.png" alt="кусака" class="instruction__img">
+                <figcaption class="instruction__text">Белочка очень любит рисовать!
+                    Дай белочке задание: назови картинку
+                    и нажми на неё, и белочка ее раскрасит.
+                    Проговаривай все звуки и слоги четко,
+                    чтобы белочка поняла, что нужно нарисовать</figcaption>
+            </figure>
         </div>
-    </div> -->
+    </header>
 
-    <!--Инструкция-->
-    <div class="header" >
-        <h1>Простые слова (I уровень)</h1>
-    </div>
+    <main>
+        <aside class="figures">
+            <div class="container figures__container">
+                <figure class="figures__figure">
+                    <img id="characterOne" src="img/figures/flySilhouette.png" class="figures__img">
+                    <figcaption class="figures__par">Муха</figcaption>
+                </figure>
 
-    <div class="container-instruction">
-        <img class="character-main" src="../image_play/squirrelArtist.png" alt="персонаж">
-        <p class="instruction">
-            Белочка очень любит рисовать!<br> 
-            Дай белочке задание: назови картинку<br> 
-            и нажми на неё, и белочка ее раскрасит.<br> 
-            Проговаривай все звуки и слоги четко,<br> 
-            чтобы белочка поняла, что нужно нарисовать
-        </p>
-    </div>
+                <figure class="figures__figure">
+                    <img id="characterTwo" src="img/figures/owlSilhouette.png" class="figures__img">
+                    <figcaption class="figures__par">Сова</figcaption>
+                </figure>
 
+                <figure class="figures__figure">
+                    <img id="characterThree" src="img/figures/perfumeSilhouette.png" class="figures__img">
+                    <figcaption class="figures__par">Духи</figcaption>
+                </figure>
 
-    <!-- Кнопки некст -->
-
-            <div class="container">
-
-                <div class="container-character">                
-                    <img id="characterOne" class="character" src="../image_play/flySilhouette.png" alt="муха">
-                    <p>Муха</p>
-                </div>
-
-                <div class="container-character">
-                    <img id="characterTwo" class="character" src="../image_play/owlSilhouette.png" alt="сова">
-                    <p>Сова</p>
-                </div>
-
-                <div class="container-character">
-                    <img id="characterThree" class="character" src="../image_play/perfumeSilhouette.png" alt="духи">
-                    <p>Духи</p>
-                </div>
-
-                <div class="container-character">
-                    <img id="characterFour" class="character" src="../image_play/sledSilhouette.png" alt="сани">
-                    <p>Сани</p>
-                </div>
+                <figure class="figures__figure">
+                    <img id="characterFour" src="img/figures/sledSilhouette.png" class="figures__img">
+                    <figcaption class="figures__par">Сани</figcaption>
+                </figure>
             </div>
+        </aside>
+        
+        <aside class="btn">
+            <div class="container btn__container">
+                <a href="simpWSSsquirrel.html" class="btn__link"></a>
+            </div>
+        </aside>
+
+    </main>
+
+    <audio id="audioChpok" src="audio/chpok2.mp4"></audio>
 
 
 
-
-                    <!-- Кнопки некст -->
-
-        <div class="container-all-btn">
-
-                <button class="btn" > <a href="simpWSSsquirrel.html">
-                    <img class="btn-image" src="../image_play/right.png" alt="кнопка некст" width="70"></a>
-                        <p class="text-btn" id="textRepit">Далее</p>
-                </button>
-        </div>
-
-        <!-- Аудио -->
-
-        <audio id="audioChpok" src="../sound_play/chpok2.mp3"></audio>
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
-    <script src="simpWSS.js"></script>
+    <script src="js/simpWSS.js"></script>
 </body>
 </html>

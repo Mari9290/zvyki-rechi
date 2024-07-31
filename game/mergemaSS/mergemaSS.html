@@ -4,153 +4,86 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Звуки речи - логопедические онлайн-игры. Помощник в занятиях с педагогом и в выполнении домашних заданий с родителями.">
-    <title>Слияние открытых слогов</title>
-    <link rel="stylesheet" href="mergemaSS.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="icon" href="../../favicon/favbg.svg" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Слияние открытых слогов МА</title>
+    <link rel="stylesheet" href="css/mergemaSS.css">
+    <link rel="icon" href="../../img/favicon/favbg.svg" type="image/x-icon">
 </head>
 <body>
-    <!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-   m[i].l=1*new Date();
-   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-   ym(94869008, "init", {
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true,
-        webvisor:true
-   });
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/94869008" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
-    <a href="../../startSpeech.html" class="leftbtndiv"><img class="leftbtn" src="../image_play/home.svg" alt="кнопка назад" width="50px"></a>
-    <p class="warning">Переверните экран</p>
-    <div class="btn-container container-test">
-        <button id="modalopen" class="open-popupo">Оk</button>
-    </div>
-    <!-- <div class="popup__bgo"> 
-        <div class="popupo">
-            <div><img src="../image_play/crystal.png" alt="алмаз" width="100"></div>
-            <p class="text">Полная версия этой игры и другие игры доступны по подписке</p>
-            <button class="close-popupo"><a class="btn-cta" href="../../lk.html">Оформить подписку</a></button>
+    <header class="header">
+        <div class="container header__container">
+            <a href="../../startSpeech.html" class="header__link"></a>
+
+            <h2 class="header__title">Слияние открытых слогов</h2>
+
+            <figure class="instruction">
+                <figcaption class="instruction__text">Помоги звукам подружиться!
+                    Пока первый звук едет, пропевай его песенку.
+                    А когда он подъедет к своему другу 
+                    – пропой песенку друга.
+                    Потом попробуй сделать это быстрее!
+                    (ребенок сливает звуки в слоги, плавно, 
+                    без пауз между звуками)</figcaption>
+            </figure>
         </div>
-    </div> -->
-    <!--Инструкция-->
-    <div class="header" >
-        <h1>Слияние открытых слогов</h1>
-    </div>
+    </header>
 
-    <div class="container-instruction">
-        <p class="instruction">
-            Помоги звукам подружиться! <br>
-            Пока первый звук едет, пропевай его песенку. <br>
-            А когда он подъедет к своему другу – пропой песенку друга. <br>
-            Потом попробуй сделать это быстрее! <br>
-            (ребенок сливает звуки в слоги, плавно, без пауз между звуками)
-        </p>
-    </div>
+    <main>
+        <section class="pers">
+            <div class="pers__container">
+                <div class="pers__wrap">
+                    <figure class="pers__figure">
+                        <img id="characterOne" class="pers__img" src="img/pers/Mcow.png" alt="звук M">
+                    </figure>
 
+                    <figure class="pers__figure">
+                        <img id="characterTwo" class="pers__img" src="img/squirrel/Asquirrel.png" alt="звук А">
+                    </figure>
 
-    <div class="all">
-        <!--Персонаж-->
-        <div>
+                    <div>
+                        <button id="startOne" class="pers__btn"></button>
+                        <button id="startTwo" class="pers__btn"></button>
+                        <button id="startThree" class="pers__btn"></button>
+                    </div>
 
-        <div class="container-main">
-        <div class="container-big">
+                </div>
 
-            <div class="container">
-                <img id="characterOne" class="character" src="../image_play/Mcow.png" alt="звук M">
-                <div class="road"></div>
-                <img id="characterTwo" class="character" src="../image_play/Asquirrel.png" alt="звук А">
+                <div class="pers__wrap">
+                    <figure class="pers__figure">
+                        <img id="characterThree" class="pers__img" src="img/pers/Mcow.png" alt="звук M">
+                    </figure>
+
+                    <figure class="pers__figure">
+                        <img id="characterFour" class="pers__img" src="img/squirrel/Osquirrel.png" alt="звук А">
+                    </figure>
+
+                    <div>
+                        <button id="startSecond" class="pers__btn"></button>
+                        <button id="startOneSecond" class="pers__btn"></button>
+                        <button id="startTwoSecond" class="pers__btn"></button>
+                    </div>
+                </div>
             </div>
-
-        </div>
-
-            <!--Кнопки-->
-
-        <div class="container-btn">
-
-            <button id="start" class="btn" >
-                <img class="btn-image" src="../image_play/play.png" alt="кнопка старт" width="70">
-                <p id="text-start" class="text-btn">Старт</p>
-            </button>
-        
-            <button id="startOne" class="btn" >
-                <img class="btn-image" src="../image_play/play.png" alt="кнопка старт" width="70">
-                <p id="text-startOne" class="text-btn">Старт</p>
-            </button>
-        
-            <button id="startTwo" class="btn" >
-                <img class="btn-image" src="../image_play/play.png" alt="кнопка старт" width="70">
-                <p id="text-startTwo" class="text-btn">Старт</p>
-            </button>
-        </div>
-
-    </div>
-
-    <!--Персонаж2-->
+        </section>
 
 
-    <div class="container-main">
-        <div class="container-big">
-
-            <div class="container">
-                <img id="characterThree" class="character" src="../image_play/Mcow.png" alt="звук М">
-                <div class="road"></div>
-                <img id="characterFour" class="character" src="../image_play/Osquirrel.png" alt="звук О">
+        <section class="next">
+            <div class="next__container container">
+                <button id="next" class="next__btn"></button>
+                <button id="nextImage" class="next__btn"></button>
+                <button id="repiat" class="next__btn-repiat"></button>
             </div>
-        </div>
+        </section>
+    </main>
 
-    <!--Кнопки2-->
-        <div class="container-btn">
-
-            <button id="startSecond" class="btn" >
-                <img class="btn-image" src="../image_play/play.png" alt="кнопка старт" width="70">
-                <p id="text-startSecond" class="text-btn">Старт</p>
-            </button>
-        
-            <button id="startOneSecond" class="btn" >
-                <img class="btn-image" src="../image_play/play.png" alt="кнопка старт" width="70">
-                <p id="text-startOneSecond" class="text-btn">Старт</p>
-            </button>
-        
-            <button id="startTwoSecond" class="btn" >
-                <img class="btn-image" src="../image_play/play.png" alt="кнопка старт" width="70">
-                <p id="text-startTwoSecond" class="text-btn">Старт</p>
-            </button>
-        </div>
-    </div>
-
-</div>
-
-                <!-- Кнопки некст и плей для двоих -->
-
-        <div class="container-all-btn">
-            <button id="next" class="btn" >
-                <img id="nextImage" class="btn-image" src="../image_play/right.png" alt="кнопка некст" width="70">
-                <p class="text-btn" id="textRepit">Далее</p>
-            </button>
-        </div>
-    </div>
+    <audio id="audioOne" src="audio/ma.mp4"></audio>
+    <audio id="audioTwo" src="audio/mo.mp4"></audio>
+    <audio id="audioThree" src="audio/mu.mp4"></audio>
+    <audio id="audioFour" src="audio/mi.mp4"></audio>
+    <audio id="audioFive" src="audio/my.mp4"></audio>
+    <audio id="audioSix" src="audio/me.mp4"></audio>
 
 
-
-    <audio id="audioOne" src="../sound_play/ma.mp4"></audio>
-    <audio id="audioTwo" src="../sound_play/mo.mp4"></audio>
-    <audio id="audioThree" src="../sound_play/mu.mp4"></audio>
-    <audio id="audioFour" src="../sound_play/mi.mp4"></audio>
-    <audio id="audioFive" src="../sound_play/my.mp4"></audio>
-    <audio id="audioSix" src="../sound_play/me.mp4"></audio>
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
-    <script src="mergemaSS.js"></script>
+    <script src="js/mergemaSS.js"></script>
 </body>
 </html>
