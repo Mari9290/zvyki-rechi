@@ -6,7 +6,7 @@
 .header__container {
     display: flex;
     justify-content: space-between;
-    gap: 30px;
+    gap: 5px;
 }
 
 .header__wrap {
