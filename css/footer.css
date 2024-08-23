@@ -46,6 +46,10 @@
     height: 138px;
 }
 
+.footer__link-item {
+    white-space: pre-line;
+}
+
 /* @media (max-width: 1170px) {
     .footer__list {
         gap: 20px;
@@ -58,7 +62,6 @@
     .footer__container {
         flex-direction: column;
         justify-content: center;
-        gap: 40px;
     }
 
 }
