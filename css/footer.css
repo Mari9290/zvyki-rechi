@@ -35,9 +35,6 @@
     display: flex;
     flex-direction: column;
     gap: 15px;
-    /* justify-content: center;
-    flex-wrap: wrap;
-    gap: 15px; */
 }
 
 .footer__wrap {
@@ -49,13 +46,6 @@
 .footer__link-item {
     white-space: pre-line;
 }
-
-/* @media (max-width: 1170px) {
-    .footer__list {
-        gap: 20px;
-        flex-direction: column;
-    }
-} */
 
 @media (max-width: 650px) {
 
