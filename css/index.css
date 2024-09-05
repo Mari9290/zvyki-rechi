@@ -36,6 +36,10 @@
 @import url(story.css);
 @import url(news.css);
 @import url(partners.css);
+@import url(parents-head.css);
+@import url(speech.css);
+@import url(result.css);
+@import url(practice.css);
 
 @font-face {
     font-family: Ubuntu;
@@ -79,6 +83,11 @@ body {
     text-rendering: optimizeLegibility;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     -webkit-tap-highlight-color: transparent;
+}
+
+.visually-hidden {
+    position: fixed;
+    transform: scale(0);
 }
 
 img,
@@ -232,4 +241,3 @@ section, aside {
     }
 
 }
-
