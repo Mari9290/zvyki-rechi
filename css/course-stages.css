@@ -20,6 +20,19 @@
 
 .course-stages__img {
     width: 500px;
+    border-radius: 10px;
+}
+
+.course-stages__img-red {
+    border: 1px solid #EC6E5C;
+}
+
+.course-stages__img-orange {
+    border: 1px solid #ECBB5C;
+}
+
+.course-stages__img-green {
+    border: 1px solid #54A582;
 }
 
 @media (max-width: 800px) {
