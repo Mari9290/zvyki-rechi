@@ -1,3 +1,11 @@
+.game-label__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 150px;
+}
+
 .game-label__link {
     color: #613957;
     font-size: 14px;
@@ -64,3 +72,10 @@
     flex-wrap: wrap;
     padding-top: 50px;
 }
+
+@media (max-width: 850px) {
+    .game-label__container {
+        gap: 30px;
+    }
+}
+

@@ -9,6 +9,18 @@
     font-weight: 700;
 }
 
+.cta-text-red {
+    background: #FFAF78;
+}
+
+.cta-text__title-red {
+    text-align: center;
+    color: #6A0000;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
 @media (max-width: 1000px) {
     .cta-text__title {
         font-size: 25px;
@@ -26,3 +38,4 @@
         font-size: 18px;
     }
 }
+

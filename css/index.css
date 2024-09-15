@@ -1,7 +1,7 @@
 @import url(normalize.css);
 @import url(header.css);
 @import url(nav.css);
-@import url(title.css);
+/* @import url(title.css); */
 @import url(footer.css);
 @import url(social.css);
 @import url(cta.css);
@@ -9,10 +9,10 @@
 @import url(game-label.css);
 @import url(cta-price.css);
 @import url(cta-text.css);
-@import url(improve-game.css);
+/* @import url(improve-game.css); */
 @import url(cta-btn.css);
 @import url(advantages-gym.css);
-@import url(gym-label.css);
+/* @import url(gym-label.css); */
 @import url(cta-gym.css);
 @import url(text.css);
 @import url(advantages-start.css);
@@ -20,7 +20,7 @@
 @import url(advantages-auto.css);
 @import url(auto-label.css);
 @import url(advantages-atten.css);
-@import url(atten-label.css);
+/* @import url(atten-label.css); */
 @import url(props.css);
 @import url(skill.css);
 @import url(video.css);
@@ -43,6 +43,7 @@
 @import url(how.css);
 @import url(course-stages.css);
 @import url(faq.css);
+@import url(game-title.css);
 
 @font-face {
     font-family: Ubuntu;

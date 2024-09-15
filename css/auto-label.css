@@ -1,3 +1,10 @@
+.auto-label {
+    background-image: url(../img/story/story-background.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .auto-label__item {
     position: relative;
 }
@@ -10,6 +17,13 @@
     z-index: 1;
 }
 
+.auto-label__link-manul::before {
+    content: url(../img/gym-label/manul.svg);
+    position: absolute;
+    top: -50px;
+    left: 30px;
+    z-index: 1;
+}
 
 .auto-label__link-balloon::before {
     content: url(../img/auto-label/balloon.svg);

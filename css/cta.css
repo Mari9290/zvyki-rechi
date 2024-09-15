@@ -83,5 +83,7 @@
 
     .cta__par {
         font-size: 14px;
+        white-space: normal;
     }
+
 }

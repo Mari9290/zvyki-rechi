@@ -8,14 +8,24 @@
     margin-bottom: 35px;
 }
 
-.result__item:first-child {
+.result__item:nth-child(1) {
     background-color: rgba(252, 202, 110, 0.35);
     display: block;
     border-radius: 73% 27% 82% 18% / 28% 82% 18% 72%;
 }
 
+.result__item-one {
+    padding: 35px 95px;
+    max-width: 400px;
+    background-color: rgba(252, 202, 110, 0.35);
+    display: block;
+    /* border-radius: 20px;
+    padding: 20px; */
+    border-radius: 20% 40% 58% 70%/ 20% 40% 58% 70% ;
+}
 
-.result__item:last-child {
+
+.result__item:nth-child(2) {
     background-color: rgba(182, 229, 255, 0.35);
     border-radius: 20px;
     display: block;
