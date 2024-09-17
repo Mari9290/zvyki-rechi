@@ -8,6 +8,10 @@
     margin-bottom: 10px;
 }
 
+.text__item {
+    margin-bottom: 5px;
+}
+
 .text__item::before {
     content: '🏆';
 }
