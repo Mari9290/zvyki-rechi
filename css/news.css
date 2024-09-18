@@ -6,6 +6,11 @@
     flex-wrap: wrap-reverse;
 }
 
+.news__link {
+    color: #216a4a;
+    font-weight: bold;
+}
+
 .news__img {
     width: 100%;
     height: 100%;
