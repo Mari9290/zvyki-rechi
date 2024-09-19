@@ -41,6 +41,14 @@
     z-index: 1;
 }
 
+.auto-label__link-lk::before {
+    content: url(../img/auto-label/plus.svg);
+    position: absolute;
+    top: 70px;
+    left: 90px;
+    z-index: 1;
+}
+
 .auto-label__link {
     color: #613957;
     font-size: 14px;
