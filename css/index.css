@@ -41,6 +41,7 @@
 @import url(faq.css);
 @import url(game-title.css);
 @import url(temporary.css);
+@import url(cta-head.css);
 
 @font-face {
     font-family: Ubuntu;
