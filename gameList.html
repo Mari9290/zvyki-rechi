@@ -22,6 +22,7 @@
     <meta property="og:url" content="https://zvyki-rechi.ru/gameList.html">
     <meta property="og:description" content="Игры и упражнения на развитие речи и коррекцию произношения  для дошкольников. Автоматизация звуков, запуск речи, слуховое внимание и артикуляционная гимнастика. Логопедические задания для ребенка в 2 года. Логопедические задания для ребенка в 3 года. Логопедические задания для ребенка в 4 года. Логопедические задания для ребенка в 5 лет.">
     <meta property="og:image" content="img/header/logo.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
@@ -115,14 +116,14 @@
         <section class="advantages-game">
             <div class="container advantages-game__container">
 
-                <div class="cta-head">
+                <div class="cta-head" data-aos="zoom-in">
                     <h3 class="cta-head__title">
                         Игры <b>ЗВУКИ РЕЧИ</b> - это 
                         <span class="cta-head__title-span">ПОЭТАПНАЯ  СИСТЕМА</span> 
                         работы над речью ребенка.
                     </h3>
                 </div>
-                
+
                 <ul class="advantages-game__list">
                     <li class="advantages-game__item">удобная картотека 
                         логопедических игр</li>
@@ -190,7 +191,28 @@
             <div class="cta-price__container container">
                 <h2 class="heading cta-price__title">Больше онлайн-игр по подписке</h2>
 
-                <a class="cta-price__btn btn btn-green" href="price.html">Узнать стоимость<span class="btn-flare"></span></a>
+                <a class="cta-price__btn btn btn-green" data-aos="zoom-in" href="price.html">Узнать стоимость<span class="btn-flare"></span></a>
+            </div>
+        </section>
+
+        <section class="cta-parents">
+            <div class="container cta-parents__container">
+                <div class="cta-parents__head">
+                    <a href="parents.html">
+                    <h3 class="cta-parents__title">
+                        Для 
+                        <span class="cta-parents__span">РОДИТЕЛЕЙ</span> мы создали 
+                        <span class="cta-parents__span">ИГРОВЫЕ ПРОГРАММЫ</span> 
+                        - 
+                        <b>систему поэтапной работы</b> 
+                        над речью ребенка с помощью интерактивных игр, видео, фото и статей с лайфхаками. 
+                    </h3>
+                    </a>
+                </div>
+
+                <div class="cta-price__container container">
+                    <a class="cta-price__btn btn btn-green" data-aos="zoom-in" href="parents.html">Раздел для родителей</a>
+                </div>
             </div>
         </section>
 
@@ -267,7 +289,30 @@
             <div class="cta-price__container container">
                 <h2 class="heading cta-price__title">Больше онлайн-игр по подписке</h2>
 
-                <a class="cta-price__btn btn" href="lk.html">Оформить подписку<span class="btn-flare"></span></a>
+                <a class="cta-price__btn btn" data-aos="zoom-in" href="lk.html">Оформить подписку<span class="btn-flare"></span></a>
+            </div>
+        </section>
+
+        <section class="cta-parents">
+            <div class="container cta-parents__container">
+                <div class="cta-parents__head">
+                    <a href="parents.html">
+                    <h3 class="cta-parents__title cta-parents__title-wrap">Мы подготовили для вас <span class="cta-parents__span">ГОТОВЫЙ ПЛАН РАБОТЫ</span> над речью от дипломированного логопеда с 10 летним стажем.
+                        Инструкции написаны <span class="cta-parents__span">ПРОСТЫМИ СЛОВАМИ</span>, а для каждого этапа работы есть <b>интерактивные онлайн-игры.</b> 
+                    </h3>
+                    </a>
+                </div>
+
+                <div class="cta-parents__wrap">
+                    <h3 class="cta-parents__heading">
+                        Узнайте подробнее об игровых программах ДЛЯ РОДИТЕЛЕЙ
+                        и добивайтесь РЕЗУЛЬТАТА с нами!
+                    </h3>
+                </div>
+
+                <div class="cta-price__container container">
+                    <a class="cta-price__btn btn btn-green" href="parents.html" data-aos="zoom-in">Раздел для родителей</a>
+                </div>
             </div>
         </section>
 
@@ -336,10 +381,10 @@
         <aside class="text">
             <div class="text__container container">
                 <div class="text__wrap">
-                    <p class="text__par">
+                    <p class="text__par text__par-center">
                         <b>Остались вопросы?</b> С удовольствием на них ответим и поможем выбрать оптимальный <b>вариант подписки! </b>
                     </p>
-                    <p class="text__par">
+                    <p class="text__par text__par-center">
                         Присоейдиняйтесь к числу наших пользователей и получайте <b>результат!</b>
                     </p>
                 </div>
@@ -348,7 +393,7 @@
 
         <aside class="cta-btn">
             <div class="cta-btn__container container">
-                <a class="btn btn-green" href="lk.html">Написать нам<span class="btn-flare"></span></a>
+                <a class="btn btn-green" data-aos="zoom-in" href="lk.html">Написать нам<span class="btn-flare"></span></a>
             </div>
         </aside>
 
@@ -439,5 +484,7 @@
 
     <script src="js/gamburger.js"></script>
     <script src="js/copyrigt.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
 </body>
 </html>

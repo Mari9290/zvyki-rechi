@@ -8,6 +8,10 @@
     margin-bottom: 10px;
 }
 
+.text__par-center {
+    text-align: center;
+}
+
 .text__item {
     margin-bottom: 5px;
 }
