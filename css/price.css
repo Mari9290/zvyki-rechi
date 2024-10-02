@@ -18,6 +18,20 @@
     position: relative;
 }
 
+.price__try {
+    position: absolute;
+    background-color: #5ab447;
+    padding: 10px;
+    top: 90px;
+    left: 0;
+}
+
+.price__text {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 20px;
+}
+
 .price__list::before {
     content: url(../img/price/rainbow.svg);
     position: absolute;
