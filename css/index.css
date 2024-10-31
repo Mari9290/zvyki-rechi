@@ -44,6 +44,11 @@
 @import url(cta-head.css);
 @import url(cta-parents.css);
 @import url(stages-payment.css);
+@import url(popup.css);
+@import url(popupt.css);
+@import url(popuph.css);
+@import url(call.css);
+
 
 @font-face {
     font-family: Ubuntu;

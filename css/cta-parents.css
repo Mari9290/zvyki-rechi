@@ -1,9 +1,12 @@
 .cta-parents__head {
-    filter: drop-shadow(2px 2px 5px #F27575);
     border-radius: 15px;
     padding: 20px 100px;
     margin-bottom: 20px;
     background-color: #fff;
+}
+
+.cta-parents__head:hover {
+    filter: drop-shadow(2px 2px 5px #F27575);
 }
 
 .cta-parents__title-wrap {

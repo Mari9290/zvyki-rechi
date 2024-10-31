@@ -7,6 +7,7 @@
     color: #142935;
     font-size: 30px;
     font-weight: 700;
+    text-transform: uppercase;
 }
 
 @media (max-width: 1000px) {

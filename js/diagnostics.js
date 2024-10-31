@@ -363,8 +363,8 @@ const btnDisplay6 = document.querySelector('#btnDisplay6');
 const displayTest6 = document.querySelector('#displayTest6');
 
 btnDisplay6.addEventListener('click',() => {
-    displayTest6.style.display = 'block';
     showTicket.style.display = 'none';
+    displayTest6.style.display = 'block';
 });
 
 

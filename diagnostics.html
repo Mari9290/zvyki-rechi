@@ -36,10 +36,7 @@
             <nav class="nav">
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a href="aboutUs.html" class="nav__link">О нас</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="gameList.html" class="nav__link">Бесплатные игры</a>
+                        <a href="price.html" class="nav__link">Прайс</a>
                     </li>
                     <li class="nav__item">
                         <a href="parents.html" class="nav__link">Родителям</a>
@@ -48,7 +45,10 @@
                         <a href="diagnostics.html" class="nav__link">Экспресс-диагностика</a>
                     </li>
                     <li class="nav__item">
-                        <a href="price.html" class="nav__link">Прайс</a>
+                        <a href="gameList.html" class="nav__link">Пробная версия</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="aboutUs.html" class="nav__link">О нас</a>
                     </li>
                     <li class="nav__item">
                         <a href="index.html#comment" class="nav__link">Отзывы</a>
@@ -60,7 +60,9 @@
                         <a href="contacts.html" class="nav__link">Контакты</a>
                     </li>
                     <li class="nav__item">
-                        <a href="lk.html" class="nav__link">Подписка</a>
+                        <a href="lk.html" class="nav__link">Личный
+                            кабинет
+                        </a>
                     </li>
                 </ul>
             </nav>
@@ -68,20 +70,20 @@
     </header>
 
     <main>
-        <section class="diagnostic-hat">
+        <section class="diagnostic-hat" id="hut">
             <div class="container diagnostic-hat__container">
                 <h2 class="heading">Диагностика речи детей</h2>
 
-                <p class="diagnostic-hat__text">
+                <p class="diagnostic-hat__text visually-hidden">
                     Тут вы можете пройти онлайн-тесты, в основу которых легли нормы речи детей по возрасту до 1 года, в 2 года, в 3 года, в 4 года, в 5 лет.
                 </p>
 
-                <p class="diagnostic-hat__text">
+                <p class="diagnostic-hat__text visually-hidden">
                     Тесты помогут ответить на вопросы родителя:
                     Когда дети начинают говорить?  Нормально ли, если ребенок не говорит в 2 года? А если ребенок не говорит в 3 года? Какое нормальное речевое развитие дошкольников?
                 </p>
 
-                <p class="diagnostic-hat__text">
+                <p class="diagnostic-hat__text visually-hidden">
                     Чем поможет детский логопед?
                 </p>
             </div>
@@ -147,7 +149,7 @@
                             </p>
                         </div>
                         <div class="diagnostic-label__hidden-btn">
-                            <button class="diagnostic-label__btn btn-green" id="btnDisplay4">Перейти</button>
+                            <a href="#hut" class="diagnostic-label__btn btn-green" id="btnDisplay4">Перейти</a>
                         </div>
                     </li>
 
@@ -162,7 +164,7 @@
                             </p>
                         </div>
                         <div class="diagnostic-label__hidden-btn">
-                            <button class="diagnostic-label__btn btn-green" id="btnDisplay5">Перейти</button>
+                            <a href="#hut" class="diagnostic-label__btn btn-green" id="btnDisplay5">Перейти</a>
                         </div>
                     </li>
 
@@ -177,7 +179,7 @@
                             </p>
                         </div>
                         <div class="diagnostic-label__hidden-btn">
-                            <button class="diagnostic-label__btn btn-green" id="btnDisplay6">Перейти</button>
+                            <a href="#hut" class="diagnostic-label__btn btn-green" id="btnDisplay6">Перейти</a>
                         </div>
                     </li>
                 </ul>
@@ -956,7 +958,7 @@
 
         <aside class="cta-btn">
             <div class="cta-btn__container container">
-                <a class="btn cta-btn__btn" href="lk.html">Оформить подписку<span class="btn-flare"></span></a>
+                <a class="btn cta-btn__btn" href="price.html">Оформить подписку<span class="btn-flare"></span></a>
             </div>
         </aside>
     </main>

@@ -13,23 +13,9 @@
     backdrop-filter: blur(10px);
     border-radius: 10px;
     padding: 40px 20px;
-    min-height: 400px;
-    max-width: 340px;
+    min-height: 300px;
+    width: 340px;
     position: relative;
-}
-
-.price__try {
-    position: absolute;
-    background-color: #5ab447;
-    padding: 10px;
-    top: 90px;
-    left: 0;
-}
-
-.price__text {
-    color: #FFFFFF;
-    font-weight: bold;
-    font-size: 20px;
 }
 
 .price__list::before {
@@ -68,7 +54,7 @@
 }
 
 .price__item:nth-child(2)::after {
-    content: url(../img/price/purple-label.svg);
+    content: url(../img/price/blue-label.svg);
     position: absolute;
     top: -15px;
     right: 15px;
@@ -76,20 +62,6 @@
 
 .price__item:nth-child(3)::after {
     content: url(../img/price/green-label.svg);
-    position: absolute;
-    top: -15px;
-    right: 15px;
-}
-
-.price__item:nth-child(4)::after {
-    content: url(../img/price/green-label.svg);
-    position: absolute;
-    top: -15px;
-    right: 15px;
-}
-
-.price__item:nth-child(5)::after {
-    content: url(../img/price/blue-label.svg);
     position: absolute;
     top: -15px;
     right: 15px;
@@ -104,49 +76,28 @@
     font-size: 18px;
     line-height: 21px;
     position: relative;
-    padding-left: 40px;
+    padding-left: 0px;
     text-align: start;
     margin-bottom: 25px;
 }
 
-.price__par:nth-child(1)::before {
-    content: url(../img/price/account.svg);
-    position: absolute;
-    top: 0;
-    left: 0;
+.price__par-crossed {
+    text-decoration: line-through;
 }
 
-.price__par:nth-child(2)::before {
-    content: url(../img/price/infinity.svg);
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.price__par:nth-child(3)::before {
-    content: url(../img/price/icon-star.svg);
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.price__discount {
-    text-align: center;
+.price__span-red {
+    color: red;
+    font-size: 30px;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 21px;
-    color: #3D9B9C;
+    padding-left: 20px;
 }
 
-.price__discount-blue {
-    color: #396BEB;
-}
 
 .price__label {
     position: absolute;
     top: 20px;
     right: 35px;
-    z-index: 2;
+    z-index: 1;
 }
 
 .price__time {
@@ -178,5 +129,13 @@
 
     .price__container::after {
         top: 1430px;
+    }
+
+    .price__item {
+        width: 300px;
+    }
+
+    .price__time {
+        font-size: 25px;
     }
 }
