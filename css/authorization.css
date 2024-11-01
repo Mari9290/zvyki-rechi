@@ -1,3 +1,17 @@
+.body-lk { 
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.body-lk__content {
+    flex: 1 0 auto;
+}
+
+.body-lk__footer {
+    flex-shrink: 0;
+}
+
 .authorization__link {
     display: inline-block;
 }
