@@ -17,6 +17,10 @@
     object-fit: contain;
 }
 
+.news__figure-purp {
+    background: radial-gradient(circle, rgba(254,193,88,1) 0%, rgba(43, 217, 226, 0) 55%);
+}
+
 .news__figure {
     padding: 50px 30px;
     box-shadow: 1px 4px 4px 1px rgba(0, 0, 0, 0.25);
